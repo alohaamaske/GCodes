@@ -62,6 +62,7 @@ public class Evergrow_TeamsTest
 		Thread.sleep(3000);
 		//co.teamnameaction();
 		Softassert.assertAll();
+		System.out.println("Hello, delete this");
 	}
 	@Test(priority=3)
 	public void VerifyAndEditTeam() throws AWTException, InterruptedException
