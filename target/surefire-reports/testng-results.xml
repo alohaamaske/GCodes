@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="24163" started-at="2021-10-22T11:32:36 IST" finished-at="2021-10-22T11:33:00 IST">
+  <suite name="Suite" duration-ms="60765" started-at="2021-12-28T16:39:06 IST" finished-at="2021-12-28T16:40:06 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="24163" started-at="2021-10-22T11:32:36 IST" finished-at="2021-10-22T11:33:00 IST">
-      <class name="com.Evergrow.TestCases.TC_EvergrowLogin_001">
-        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.Evergrow.TestCases.TC_EvergrowLogin_001@491cc5c9]" name="Setup" is-config="true" duration-ms="9091" started-at="2021-10-22T11:32:36 IST" finished-at="2021-10-22T11:32:46 IST">
+    <test name="Test" duration-ms="60765" started-at="2021-12-28T16:39:06 IST" finished-at="2021-12-28T16:40:06 IST">
+      <class name="com.GCodes.TestCases.TC_GiveAwardTest_002">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_GiveAwardTest_002@491cc5c9]" name="Setup" is-config="true" duration-ms="6257" started-at="2021-12-28T16:39:06 IST" finished-at="2021-12-28T16:39:12 IST">
           <params>
             <param index="0">
               <value>
@@ -18,15 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="TC_EvergrowLogin_001()[pri:0, instance:com.Evergrow.TestCases.TC_EvergrowLogin_001@491cc5c9]" name="TC_EvergrowLogin_001" duration-ms="13979" started-at="2021-10-22T11:32:46 IST" finished-at="2021-10-22T11:33:00 IST">
+        <test-method status="PASS" signature="giveAward()[pri:0, instance:com.GCodes.TestCases.TC_GiveAwardTest_002@491cc5c9]" name="giveAward" duration-ms="54329" started-at="2021-12-28T16:39:12 IST" finished-at="2021-12-28T16:40:06 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_EvergrowLogin_001 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.Evergrow.TestCases.TC_EvergrowLogin_001@491cc5c9]" name="teardown" is-config="true" duration-ms="889" started-at="2021-10-22T11:33:00 IST" finished-at="2021-10-22T11:33:00 IST">
+        </test-method> <!-- giveAward -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_GiveAwardTest_002@491cc5c9]" name="teardown" is-config="true" duration-ms="0" started-at="2021-12-28T16:40:06 IST" finished-at="2021-12-28T16:40:06 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.Evergrow.TestCases.TC_EvergrowLogin_001 -->
+      </class> <!-- com.GCodes.TestCases.TC_GiveAwardTest_002 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
