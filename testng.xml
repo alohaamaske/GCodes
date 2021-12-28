@@ -7,8 +7,8 @@
   <test thread-count="5" name="Test">
   <parameter name="browser" value="chrome" />
     <classes>
-   <class name="com.GCodes.TestCases.TC_EvergrowLogin_001"/>
-    <!-- <class name="com.GCodes.TestCases.TC_GiveAwardTest_002"/><!-->
+     <!-- <class name="com.GCodes.TestCases.TC_EvergrowLogin_001"/><!-->
+   <class name="com.GCodes.TestCases.TC_GiveAwardTest_002"/>
 
     </classes>
   </test> <!-- Test -->

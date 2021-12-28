@@ -59,7 +59,9 @@ public class TC_GiveAwardTest_002 extends BaseClass
 			give.memberfield(member);
 			give.memberfilter();
 			give.sendaward();
+			Thread.sleep(2000);
 			String entermessage=give.alertmsg();
+			System.out.println("The alert message is "+ entermessage);
 			if(entermessage.equals("Please enter the messages you would like to send to your awardees."))
 			{
 				Assert.assertTrue(true);
@@ -92,6 +94,7 @@ public class TC_GiveAwardTest_002 extends BaseClass
 			give.close(); 
 			Thread.sleep(2000);
 			give.give();
+			give.peerbtnclick();
 			Thread.sleep(3000); 
 			String awardtext2=give.awardtotalcount();
 			Integer awardcount2=Integer.valueOf(awardtext2);

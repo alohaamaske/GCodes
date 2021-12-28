@@ -27,7 +27,8 @@ public class GiveAward {
 	@FindBy(xpath="//*[@id=\"loggedIn\"]/div[1]/div[3]/div[4]/div[3]/button")
 	WebElement btnsendaward;
 
-	@FindBy(xpath="//*[@id=\"loggedIn\"]/div[1]/div[3]/div[3]/div[3]/textarea")
+	@FindBy(xpath="//*[@id=\"loggedIn\"]/div[1]/div[3]/div[4]/div[3]/textarea")
+	
 	WebElement txtmessage;
 
 	@FindBy(xpath="//*[@id=\"loggedIn\"]/div[1]/div[3]/div[4]/p[1]")
@@ -47,7 +48,7 @@ public class GiveAward {
 	
 	WebElement closepopup;
 
-	@FindBy(xpath="//*[@id=\"loggedIn\"]/div[1]/div[3]/div[4]/div/h1")
+	@FindBy(xpath="//*[@id=\"loggedIn\"]/div[1]/div[3]/div[5]/div/h1")
 	WebElement alertmsg;
 
 
