@@ -27,6 +27,7 @@ import com.aventstack.extentreports.Status;
 public class TC_GiveAwardTest_002 extends BaseClass
 {
 	@Test
+	//updates
 	public void giveAward() throws InterruptedException
 	{		
 		Login login=new Login(driver);
