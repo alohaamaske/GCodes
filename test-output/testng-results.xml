@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="60822" started-at="2021-12-28T16:47:23 IST" finished-at="2021-12-28T16:48:24 IST">
+  <suite name="Suite" duration-ms="60581" started-at="2021-12-29T15:25:03 IST" finished-at="2021-12-29T15:26:04 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="60822" started-at="2021-12-28T16:47:23 IST" finished-at="2021-12-28T16:48:24 IST">
+    <test name="Test" duration-ms="60581" started-at="2021-12-29T15:25:03 IST" finished-at="2021-12-29T15:26:04 IST">
       <class name="com.GCodes.TestCases.TC_GiveAwardTest_002">
-        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_GiveAwardTest_002@6d3af739]" name="Setup" is-config="true" duration-ms="5952" started-at="2021-12-28T16:47:23 IST" finished-at="2021-12-28T16:47:29 IST">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_GiveAwardTest_002@6d3af739]" name="Setup" is-config="true" duration-ms="6247" started-at="2021-12-29T15:25:04 IST" finished-at="2021-12-29T15:25:10 IST">
           <params>
             <param index="0">
               <value>
@@ -18,11 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="giveAward()[pri:0, instance:com.GCodes.TestCases.TC_GiveAwardTest_002@6d3af739]" name="giveAward" duration-ms="54650" started-at="2021-12-28T16:47:29 IST" finished-at="2021-12-28T16:48:24 IST">
+        <test-method status="PASS" signature="giveAward()[pri:0, instance:com.GCodes.TestCases.TC_GiveAwardTest_002@6d3af739]" name="giveAward" duration-ms="54104" started-at="2021-12-29T15:25:10 IST" finished-at="2021-12-29T15:26:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- giveAward -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_GiveAwardTest_002@6d3af739]" name="teardown" is-config="true" duration-ms="1" started-at="2021-12-28T16:48:24 IST" finished-at="2021-12-28T16:48:24 IST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_GiveAwardTest_002@6d3af739]" name="teardown" is-config="true" duration-ms="0" started-at="2021-12-29T15:26:04 IST" finished-at="2021-12-29T15:26:04 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

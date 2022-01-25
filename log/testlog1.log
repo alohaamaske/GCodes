@@ -33,3 +33,11 @@
 2021-12-28 16:48:04,750 [main] INFO ebanking - Empty awardees message validation successfully verified
 2021-12-28 16:48:17,045 [main] INFO ebanking - Award sent successfully!
 2021-12-28 16:48:23,719 [main] INFO ebanking - Award count has been updated successfully
+2021-12-29 15:23:05,928 [main] INFO ebanking - Award count is greater than 0
+2021-12-29 15:23:10,072 [main] INFO ebanking - Members selection validation successfully verified
+2021-12-29 15:23:14,903 [main] INFO ebanking - Empty awardees message validation successfully verified
+2021-12-29 15:25:35,610 [main] INFO ebanking - Award count is greater than 0
+2021-12-29 15:25:39,756 [main] INFO ebanking - Members selection validation successfully verified
+2021-12-29 15:25:44,658 [main] INFO ebanking - Empty awardees message validation successfully verified
+2021-12-29 15:25:56,941 [main] INFO ebanking - Award sent successfully!
+2021-12-29 15:26:03,622 [main] INFO ebanking - Award count has been updated successfully
