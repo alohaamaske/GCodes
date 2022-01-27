@@ -1,43 +1,53 @@
-2021-10-19 14:58:28,060 - ebanking -INFO - Award count is greater than 0
-2021-10-19 15:03:05,222 - ebanking -INFO - Award count is greater than 0
-2021-10-21 20:20:23,996 - ebanking -INFO - Award count is greater than 0
-2021-10-21 20:20:28,157 - ebanking -INFO - Members selection validation successfully verified
-2021-12-28 14:37:14,401 - ebanking -INFO - Award count is greater than 0
-2021-12-28 14:37:18,533 - ebanking -INFO - Members selection validation successfully verified
-2021-12-28 14:49:41,909 - ebanking -INFO - Award count is greater than 0
-2021-12-28 14:49:46,049 - ebanking -INFO - Members selection validation successfully verified
-2021-12-28 14:54:51,459 - ebanking -INFO - Award count is greater than 0
-2021-12-28 14:54:55,594 - ebanking -INFO - Members selection validation successfully verified
-2021-12-28 14:59:19,772 - ebanking -INFO - Award count is greater than 0
-2021-12-28 14:59:23,915 - ebanking -INFO - Members selection validation successfully verified
-2021-12-28 14:59:28,764 - ebanking -INFO - Empty awardees message validation successfully verified
-2021-12-28 14:59:41,068 - ebanking -INFO - Award sent successfully!
-2021-12-28 15:02:31,258 - ebanking -INFO - Award count is greater than 0
-2021-12-28 15:02:35,410 - ebanking -INFO - Members selection validation successfully verified
-2021-12-28 15:02:40,225 - ebanking -INFO - Empty awardees message validation successfully verified
-2021-12-28 15:02:52,500 - ebanking -INFO - Award sent successfully!
-2021-12-28 15:02:59,191 - ebanking -INFO - Award count has been updated successfully
-2021-12-28 16:37:24,591 - ebanking -INFO - Award count is greater than 0
-2021-12-28 16:37:28,708 - ebanking -INFO - Members selection validation successfully verified
-2021-12-28 16:37:33,557 - ebanking -INFO - Empty awardees message validation successfully verified
-2021-12-28 16:39:38,182 - ebanking -INFO - Award count is greater than 0
-2021-12-28 16:39:42,331 - ebanking -INFO - Members selection validation successfully verified
-2021-12-28 16:39:47,144 - ebanking -INFO - Empty awardees message validation successfully verified
-2021-12-28 16:39:59,458 - ebanking -INFO - Award sent successfully!
-2021-12-28 16:40:06,155 - ebanking -INFO - Award count has been updated successfully
-2021-12-28 16:45:16,032 - ebanking -INFO - Award count is greater than 0
-2021-12-28 16:45:20,182 - ebanking -INFO - Members selection validation successfully verified
-2021-12-28 16:45:25,045 - ebanking -INFO - Empty awardees message validation successfully verified
-2021-12-28 16:47:55,724 - ebanking -INFO - Award count is greater than 0
-2021-12-28 16:47:59,860 - ebanking -INFO - Members selection validation successfully verified
-2021-12-28 16:48:04,750 - ebanking -INFO - Empty awardees message validation successfully verified
-2021-12-28 16:48:17,045 - ebanking -INFO - Award sent successfully!
-2021-12-28 16:48:23,719 - ebanking -INFO - Award count has been updated successfully
-2021-12-29 15:23:05,928 - ebanking -INFO - Award count is greater than 0
-2021-12-29 15:23:10,072 - ebanking -INFO - Members selection validation successfully verified
-2021-12-29 15:23:14,903 - ebanking -INFO - Empty awardees message validation successfully verified
-2021-12-29 15:25:35,610 - ebanking -INFO - Award count is greater than 0
-2021-12-29 15:25:39,756 - ebanking -INFO - Members selection validation successfully verified
-2021-12-29 15:25:44,658 - ebanking -INFO - Empty awardees message validation successfully verified
-2021-12-29 15:25:56,941 - ebanking -INFO - Award sent successfully!
-2021-12-29 15:26:03,622 - ebanking -INFO - Award count has been updated successfully
+2022-01-25 23:09:19,472 - GCodes -INFO - Login Test is Pass
+2022-01-27 12:51:47,242 - GCodes -INFO - Login Test is Pass
+2022-01-27 12:56:32,891 - GCodes -INFO - Login Test is Pass
+2022-01-27 13:07:02,270 - GCodes -INFO - Login Test is Pass
+2022-01-27 13:23:02,260 - GCodes -INFO - Login Test is Pass
+2022-01-27 13:23:47,048 - GCodes -INFO - Login Test is Pass
+2022-01-27 14:27:45,045 - GCodes -INFO - Invalid password test started
+2022-01-27 14:27:53,515 - GCodes -INFO - Invalid Email test started
+2022-01-27 14:27:55,158 - GCodes -INFO - Invalid Email and password test started
+2022-01-27 14:38:49,198 - GCodes -INFO - Invalid password test started
+2022-01-27 14:38:57,707 - GCodes -INFO - Invalid Email test started
+2022-01-27 14:38:59,252 - GCodes -INFO - Invalid Email and password test started
+2022-01-27 14:42:32,233 - GCodes -INFO - Invalid password test started
+2022-01-27 14:42:40,841 - GCodes -INFO - Invalid Email test started
+2022-01-27 14:42:42,405 - GCodes -INFO - Invalid Email and password test started
+2022-01-27 14:50:05,241 - GCodes -INFO - Invalid password test started
+2022-01-27 14:50:13,773 - GCodes -INFO - Invalid Email test started
+2022-01-27 14:50:15,390 - GCodes -INFO - Invalid Email and password test started
+2022-01-27 14:51:43,805 - GCodes -INFO - Invalid password test started
+2022-01-27 14:51:52,092 - GCodes -INFO - Invalid Email test started
+2022-01-27 14:51:53,685 - GCodes -INFO - Invalid Email and password test started
+2022-01-27 14:52:27,961 - GCodes -INFO - Invalid password test started
+2022-01-27 14:52:36,359 - GCodes -INFO - Invalid Email test started
+2022-01-27 14:52:37,942 - GCodes -INFO - Invalid Email and password test started
+2022-01-27 14:55:00,028 - GCodes -INFO - Invalid password test started
+2022-01-27 14:56:35,775 - GCodes -INFO - Invalid password test started
+2022-01-27 14:58:14,790 - GCodes -INFO - Login Test is Pass
+2022-01-27 14:59:45,756 - GCodes -INFO - Invalid password test started
+2022-01-27 15:01:57,724 - GCodes -INFO - Invalid password test started
+2022-01-27 15:02:56,836 - GCodes -INFO - Invalid password test started
+2022-01-27 15:04:12,784 - GCodes -INFO - Invalid password test started
+2022-01-27 15:06:17,788 - GCodes -INFO - Invalid password test started
+2022-01-27 15:11:30,703 - GCodes -INFO - Login Test is Pass
+2022-01-27 15:12:22,972 - GCodes -INFO - Login Test is Pass
+2022-01-27 15:15:30,917 - GCodes -INFO - Invalid password test started
+2022-01-27 15:16:09,822 - GCodes -INFO - Invalid password test started
+2022-01-27 15:21:29,105 - GCodes -INFO - Invalid password test started
+2022-01-27 15:21:37,644 - GCodes -INFO - Invalid Email test started
+2022-01-27 15:21:40,991 - GCodes -INFO - Invalid Email and password test started
+2022-01-27 15:23:02,449 - GCodes -INFO - Invalid password test started
+2022-01-27 15:23:10,826 - GCodes -INFO - Invalid Email test started
+2022-01-27 15:23:14,234 - GCodes -INFO - Invalid Email and password test started
+2022-01-27 15:26:04,002 - GCodes -INFO - Invalid password test started
+2022-01-27 15:26:12,482 - GCodes -INFO - Invalid Email test started
+2022-01-27 15:26:15,900 - GCodes -INFO - Invalid Email and password test started
+2022-01-27 15:27:03,691 - GCodes -INFO - Login Test is Pass
+2022-01-27 15:27:17,589 - GCodes -INFO - Invalid password test started
+2022-01-27 15:27:25,949 - GCodes -INFO - Invalid Email test started
+2022-01-27 15:27:29,377 - GCodes -INFO - Invalid Email and password test started
+2022-01-27 15:27:51,735 - GCodes -INFO - Login Test is Pass
+2022-01-27 15:28:05,846 - GCodes -INFO - Invalid password test started
+2022-01-27 15:28:14,166 - GCodes -INFO - Invalid Email test started
+2022-01-27 15:28:17,593 - GCodes -INFO - Invalid Email and password test started

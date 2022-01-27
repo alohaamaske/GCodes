@@ -27,7 +27,7 @@ public class BaseClass {
 	public String password=readconfig.getPassword();
 	public static WebDriver driver;
 	public static Logger Logger;
-	Logger logger=Logger.getLogger("ebanking");
+	Logger logger=Logger.getLogger("GCodes");
 
 	@Parameters("browser")
 	@BeforeClass

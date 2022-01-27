@@ -1,13 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="EvergrowScripts.GiveAwardTest">
+      <class name="com.GCodes.TestCases.TC_GCodesLogin_001$TC_EvergrowLogin_001">
         <methods>
-          <include name="giveAward"/>
+          <include name="TC_EvergrowLogin_001"/>
+          <include name="Setup"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- EvergrowScripts.GiveAwardTest -->
+      </class> <!-- com.GCodes.TestCases.TC_GCodesLogin_001$TC_EvergrowLogin_001 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
