@@ -1,11 +1,10 @@
 C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\utilities\XLUtils.java
-C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\PageObject\Login.java
 C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\utilities\ReadConfig.java
-C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\PageObject\Teams.java
 C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\TestCases\BaseClass.java
-C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\TestCases\TC_GiveAwardTest_002.java
+C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\pageObjects\GiveAward.java
 C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\utilities\LibraryUtils.java
+C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\pageObjects\Teams.java
+C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\TestCases\TC_Login_Validations_002.java
 C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\utilities\Reporting.java
-C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\TestCases\TC_EvergrowLogin_001.java
-C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\PageObject\GiveAward.java
-C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\TestCases\Evergrow_TeamsTest.java
+C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\pageObjects\Login.java
+C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\TestCases\TC_GCodesLogin_001.java

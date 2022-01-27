@@ -52,3 +52,19 @@
 2022-01-27 15:28:05,846 [main] INFO GCodes - Invalid password test started
 2022-01-27 15:28:14,166 [main] INFO GCodes - Invalid Email test started
 2022-01-27 15:28:17,593 [main] INFO GCodes - Invalid Email and password test started
+2022-01-27 16:38:51,093 [main] INFO GCodes - Login Test is Pass
+2022-01-27 16:39:11,551 [main] INFO GCodes - Invalid password test started
+2022-01-27 16:39:19,948 [main] INFO GCodes - Invalid Email test started
+2022-01-27 16:39:23,316 [main] INFO GCodes - Invalid Email and password test started
+2022-01-27 16:46:54,539 [main] INFO GCodes - Login Test is Pass
+2022-01-27 16:47:13,317 [main] INFO GCodes - Invalid password test started
+2022-01-27 16:47:21,698 [main] INFO GCodes - Invalid Email test started
+2022-01-27 16:47:25,121 [main] INFO GCodes - Invalid Email and password test started
+2022-01-27 16:51:01,375 [main] INFO GCodes - Login Test is Pass
+2022-01-27 16:51:19,089 [main] INFO GCodes - Invalid password test started
+2022-01-27 16:51:27,429 [main] INFO GCodes - Invalid Email test started
+2022-01-27 16:51:30,854 [main] INFO GCodes - Invalid Email and password test started
+2022-01-27 16:52:25,075 [main] INFO GCodes - Login Test is Pass
+2022-01-27 16:52:43,689 [main] INFO GCodes - Invalid password test started
+2022-01-27 16:52:52,093 [main] INFO GCodes - Invalid Email test started
+2022-01-27 16:52:55,548 [main] INFO GCodes - Invalid Email and password test started
