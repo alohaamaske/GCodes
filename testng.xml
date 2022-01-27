@@ -10,7 +10,6 @@
 		<!--ctrl+shift+C-->
 			<class name="com.GCodes.TestCases.TC_GCodesLogin_001"/>
 			<class name="com.GCodes.TestCases.TC_Login_Validations_002" />			
-
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -29,12 +29,10 @@ import com.GCodes.utilities.XLUtils;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.configuration.Theme;
-public class TC_GCodesLogin_001 {
+public class TC_GCodesLogin_001 extends BaseClass{
 	
-	public class TC_EvergrowLogin_001 extends BaseClass 
-	{
-			@Test
-		public void TC_EvergrowLogin_001() throws InterruptedException, IOException 
+		@Test
+		public void TC_GCodes_Login_001() throws InterruptedException, IOException 
 		{
 			XLUtils reader= new XLUtils(System.getProperty("user.dir")+"/src/test/java/com/GCodes/TestData/TestData_GCodes.xlsx");
 			//System.out.println(reader);
@@ -61,8 +59,6 @@ public class TC_GCodesLogin_001 {
 				Assert.assertTrue(false); 
 				logger.info("Login Test is Fail");
 			}
-		}
-
-	}
+		}	
 
 }

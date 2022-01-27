@@ -15,7 +15,7 @@ import org.testng.annotations.Test;
 
 public class TC_Login_Validations_002 extends BaseClass{
 	@Test
-	public void login_Validations() throws InterruptedException
+	public void TC_GCodes_LoginValidations_002() throws InterruptedException
 	{
 		SoftAssert softassert=new SoftAssert();
 		XLUtils reader= new XLUtils(System.getProperty("user.dir")+"/src/test/java/com/GCodes/TestData/TestData_GCodes.xlsx");
