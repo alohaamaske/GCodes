@@ -8,8 +8,9 @@
 		<parameter name="browser" value="chrome" />
 		<classes>
 		<!--ctrl+shift+C-->
-			<class name="com.GCodes.TestCases.TC_GCodesLogin_001"/>
-			<class name="com.GCodes.TestCases.TC_Login_Validations_002" />			
+<!-- 			<class name="com.GCodes.TestCases.TC_GCodesLogin_001"/> -->
+<!-- 			<class name="com.GCodes.TestCases.TC_Login_Validations_002" />	 -->
+                <class name="com.GCodes.TestCases.TC_Wallet_003" />		
 		</classes>
 	</test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -7,13 +7,13 @@
   <test thread-count="5" name="Test(failed)">
     <parameter name="browser" value="chrome"/>
     <classes>
-      <class name="com.GCodes.TestCases.TC_Login_Validations_002">
+      <class name="com.GCodes.TestCases.TC_Wallet_003">
         <methods>
+          <include name="TC_Invalid_Wallet_003"/>
           <include name="Setup"/>
-          <include name="login_Validations"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.GCodes.TestCases.TC_Login_Validations_002 -->
+      </class> <!-- com.GCodes.TestCases.TC_Wallet_003 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

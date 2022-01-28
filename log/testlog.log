@@ -83,3 +83,7 @@
 2022-01-27 17:33:26,159 - GCodes -INFO - Invalid password test started
 2022-01-27 17:33:34,770 - GCodes -INFO - Invalid Email test started
 2022-01-27 17:33:38,332 - GCodes -INFO - Invalid Email and password test started
+2022-01-28 13:46:59,083 - GCodes -INFO - Login Test is Pass
+2022-01-28 13:47:19,077 - GCodes -INFO - Invalid password test started
+2022-01-28 13:47:27,509 - GCodes -INFO - Invalid Email test started
+2022-01-28 13:47:30,964 - GCodes -INFO - Invalid Email and password test started

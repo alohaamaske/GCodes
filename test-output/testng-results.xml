@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="56142" started-at="2022-01-27T17:32:43 IST" finished-at="2022-01-27T17:33:39 IST">
+  <suite name="Suite" duration-ms="25094" started-at="2022-01-28T16:00:45 IST" finished-at="2022-01-28T16:01:10 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="56142" started-at="2022-01-27T17:32:43 IST" finished-at="2022-01-27T17:33:39 IST">
-      <class name="com.GCodes.TestCases.TC_GCodesLogin_001">
-        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_GCodesLogin_001@1da51a35]" name="Setup" is-config="true" duration-ms="19347" started-at="2022-01-27T17:32:43 IST" finished-at="2022-01-27T17:33:02 IST">
+    <test name="Test" duration-ms="25094" started-at="2022-01-28T16:00:45 IST" finished-at="2022-01-28T16:01:10 IST">
+      <class name="com.GCodes.TestCases.TC_Wallet_003">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@6d3af739]" name="Setup" is-config="true" duration-ms="16309" started-at="2022-01-28T16:00:45 IST" finished-at="2022-01-28T16:01:01 IST">
           <params>
             <param index="0">
               <value>
@@ -18,36 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="TC_GCodes_Login_001()[pri:0, instance:com.GCodes.TestCases.TC_GCodesLogin_001@1da51a35]" name="TC_GCodes_Login_001" duration-ms="10474" started-at="2022-01-27T17:33:02 IST" finished-at="2022-01-27T17:33:13 IST">
+        <test-method status="PASS" signature="TC_Invalid_Wallet_003()[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@6d3af739]" name="TC_Invalid_Wallet_003" duration-ms="6996" started-at="2022-01-28T16:01:01 IST" finished-at="2022-01-28T16:01:08 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_GCodes_Login_001 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_GCodesLogin_001@1da51a35]" name="teardown" is-config="true" duration-ms="708" started-at="2022-01-27T17:33:13 IST" finished-at="2022-01-27T17:33:14 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.GCodes.TestCases.TC_GCodesLogin_001 -->
-      <class name="com.GCodes.TestCases.TC_Login_Validations_002">
-        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Login_Validations_002@15b3e5b]" name="Setup" is-config="true" duration-ms="11953" started-at="2022-01-27T17:33:14 IST" finished-at="2022-01-27T17:33:26 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="TC_GCodes_LoginValidations_002()[pri:0, instance:com.GCodes.TestCases.TC_Login_Validations_002@15b3e5b]" name="TC_GCodes_LoginValidations_002" duration-ms="12594" started-at="2022-01-27T17:33:26 IST" finished-at="2022-01-27T17:33:38 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- TC_GCodes_LoginValidations_002 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_Login_Validations_002@15b3e5b]" name="teardown" is-config="true" duration-ms="790" started-at="2022-01-27T17:33:38 IST" finished-at="2022-01-27T17:33:39 IST">
+        </test-method> <!-- TC_Invalid_Wallet_003 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@6d3af739]" name="teardown" is-config="true" duration-ms="1581" started-at="2022-01-28T16:01:08 IST" finished-at="2022-01-28T16:01:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.GCodes.TestCases.TC_Login_Validations_002 -->
+      </class> <!-- com.GCodes.TestCases.TC_Wallet_003 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
