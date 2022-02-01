@@ -19,7 +19,8 @@ public class TC_Login_Validations_002 extends BaseClass{
 	{
 		SoftAssert softassert=new SoftAssert();
 		XLUtils reader= new XLUtils(System.getProperty("user.dir")+"/src/test/java/com/GCodes/TestData/TestData_GCodes.xlsx");
-		Login com=new Login(driver);
+		Login com=new Login(getDriver());
+		getDriver().get(baseURL);
 		logger.info("Invalid password test started");
 		String username= reader.getCellData("Sheet1", "Username", 3);
 		String password= reader.getCellData("Sheet1", "Password", 3);
@@ -32,7 +33,7 @@ public class TC_Login_Validations_002 extends BaseClass{
 		String expectedalert="Invalid username and password combination";
 		//System.out.println("Expected alert is " + expectedalert);
 		softassert.assertEquals(result, expectedalert);			
-		driver.navigate().refresh();
+		getDriver().navigate().refresh();
 		Thread.sleep(3000);
 		logger.info("Invalid Email test started");
 		String username2= reader.getCellData("Sheet1", "Username", 4);

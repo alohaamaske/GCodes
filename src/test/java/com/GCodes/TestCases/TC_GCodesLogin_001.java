@@ -30,35 +30,36 @@ import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.reporter.configuration.Theme;
 public class TC_GCodesLogin_001 extends BaseClass{
-	
-		@Test
-		public void TC_GCodes_Login_001() throws InterruptedException, IOException 
-		{
-			XLUtils reader= new XLUtils(System.getProperty("user.dir")+"/src/test/java/com/GCodes/TestData/TestData_GCodes.xlsx");
-			//System.out.println(reader);
-			Login com=new Login(driver);
-			String username= reader.getCellData("Sheet1", "Username", 2);
-			String password= reader.getCellData("Sheet1", "Password", 2);
-			Thread.sleep(3000);
-			com.username(username);
-			com.password(password);
-			com.submit();									
-	      	System.out.println("Page title is " +driver.getTitle());
-			
-			if(driver.getTitle().equals("GCodes® - INSTANT REWARDS, EVERYWHERE.™"))
-			{			
-				Assert.assertTrue(true);
-				logger.info("Login Test is Pass");
-				com.accountLinkclick();
-				Thread.sleep(2000);
-				com.logoutclick();
-			} 
-			
-			else {
-				captureScreen(driver,"LoginTest");
-				Assert.assertTrue(false); 
-				logger.info("Login Test is Fail");
-			}
-		}	
+
+	@Test
+	public void TC_GCodes_Login_001() throws InterruptedException, IOException 
+	{
+		XLUtils reader= new XLUtils(System.getProperty("user.dir")+"/src/test/java/com/GCodes/TestData/TestData_GCodes.xlsx");
+		//System.out.println(reader);
+		Login com=new Login(getDriver());
+		getDriver().get(baseURL);
+		String username= reader.getCellData("Sheet1", "Username", 2);
+		String password= reader.getCellData("Sheet1", "Password", 2);
+		Thread.sleep(3000);
+		com.username(username);
+		com.password(password);
+		com.submit();									
+		System.out.println("Page title is " +getDriver().getTitle());
+
+		if(getDriver().getTitle().equals("GCodes® - INSTANT REWARDS, EVERYWHERE.™"))
+		{			
+			Assert.assertTrue(true);
+			logger.info("Login Test is Pass");
+			com.accountLinkclick();
+			Thread.sleep(2000);
+			com.logoutclick();
+		} 
+
+		else {
+			captureScreen(getDriver(),"LoginTest");
+			Assert.assertTrue(false); 
+			logger.info("Login Test is Fail");
+		}
+	}	
 
 }

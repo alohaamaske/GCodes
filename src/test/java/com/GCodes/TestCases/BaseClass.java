@@ -14,54 +14,60 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
 
 import com.GCodes.utilities.ReadConfig;
 
 public class BaseClass {
-	
+
 	ReadConfig readconfig=new ReadConfig(); 
 	public String baseURL=readconfig.getApplicationURL();
 	public String username=readconfig.getUsername();
 	public String password=readconfig.getPassword();
-	public static WebDriver driver;
 	public static Logger Logger;
 	Logger logger=Logger.getLogger("GCodes");
 
+	private static ThreadLocal<WebDriver> driver=new ThreadLocal<>();
+
 	@Parameters("browser")
-	@BeforeClass
+	@BeforeMethod
 	public void Setup(String br)
 	{
 		PropertyConfigurator.configure("log4j.properties");
-
 		if(br.equals("chrome"))
 		{	
 			System.setProperty("webdriver.chrome.driver", readconfig.getChromepath());
-			driver=new ChromeDriver();
+			driver.set(new ChromeDriver());
 		}
 		else if(br.equals("firefox"))
 		{
 			System.setProperty("webdriver.gecko.driver", readconfig.getfirefoxpath());
-			driver=new FirefoxDriver();
+			driver.set(new FirefoxDriver());		
 		}
 
 		else if(br.equals("msedge"))
 		{
 			System.setProperty("webdriver.edge.driver", readconfig.getmsedgepath());
-			driver=new EdgeDriver();
+			driver.set(new EdgeDriver());
 		}
-		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS) ;
-		driver.get(baseURL);
-		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS) ;				
+		getDriver().manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS) ;
+		getDriver().manage().window().maximize();
+		getDriver().manage().timeouts().implicitlyWait(20,TimeUnit.SECONDS) ;		
 
-	}	
-	@AfterClass	
+	}
+
+	public WebDriver getDriver()//Chrome
+	{
+		return driver.get();
+	}
+
+	@AfterMethod	
 	public void teardown()
 	{
-
-		driver.quit();
+		getDriver().quit();
 	}
 
 	public void captureScreen(WebDriver driver, String tname) throws IOException
