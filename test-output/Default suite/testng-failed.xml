@@ -3,13 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.GCodes.TestCases.TC_Login_Validations_002">
+      <class name="com.GCodes.TestCases.TC_Cart_validation_004">
         <methods>
           <include name="Setup"/>
-          <include name="TC_GCodes_LoginValidations_002"/>
+          <include name="TC_CartAddRemove"/>
           <include name="teardown"/>
         </methods>
-      </class> <!-- com.GCodes.TestCases.TC_Login_Validations_002 -->
+      </class> <!-- com.GCodes.TestCases.TC_Cart_validation_004 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -9,14 +9,31 @@
 <table>
 <tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
 <tr><th colspan="8">Suite</th></tr>
-<tr><td><a href="#t0">Test</a></td><td class="num">5</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">129,155</td><td></td><td></td></tr>
+<tr><td><a href="#t0">Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">57,568</td><td></td><td></td></tr>
 </table>
-<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.GCodes.TestCases.TC_GCodesLogin_001</td><td><a href="#m0">TC_GCodes_Login_001</a></td><td rowspan="1">1643712594969</td><td rowspan="1">21888</td></tr><tr class="passedodd"><td rowspan="1">com.GCodes.TestCases.TC_Login_Validations_002</td><td><a href="#m1">TC_GCodes_LoginValidations_002</a></td><td rowspan="1">1643712619142</td><td rowspan="1">40376</td></tr><tr class="passedeven"><td rowspan="3">com.GCodes.TestCases.TC_Wallet_003</td><td><a href="#m2">TC_Invalid_Wallet_003</a></td><td rowspan="1">1643712661687</td><td rowspan="1">35622</td></tr><tr class="passedeven"><td><a href="#m3">TC_Invalid_Wallet_004</a></td><td rowspan="1">1643712699297</td><td rowspan="1">10300</td></tr><tr class="passedeven"><td><a href="#m4">TC_Invalid_Wallet_005</a></td><td rowspan="1">1643712711716</td><td rowspan="1">9110</td></tr></tbody>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.GCodes.TestCases.TC_Cart_validation_004</td><td><a href="#m0">TC_CartAddRemove</a></td><td rowspan="1">1643814035810</td><td rowspan="1">50029</td></tr></tbody>
 </table>
-<h2>Test</h2><h3 id="m0">com.GCodes.TestCases.TC_GCodesLogin_001#TC_GCodes_Login_001</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m1">com.GCodes.TestCases.TC_Login_Validations_002#TC_GCodes_LoginValidations_002</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m2">com.GCodes.TestCases.TC_Wallet_003#TC_Invalid_Wallet_003</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m3">com.GCodes.TestCases.TC_Wallet_003#TC_Invalid_Wallet_004</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
-<h3 id="m4">com.GCodes.TestCases.TC_Wallet_003#TC_Invalid_Wallet_005</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>Test</h2><h3 id="m0">com.GCodes.TestCases.TC_Cart_validation_004#TC_CartAddRemove</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.ElementClickInterceptedException: Element &lt;a class=&quot;cart-remove&quot; href=&quot;/storefront/cart&quot;&gt; is not clickable at point (975,296) because another element &lt;div class=&quot;pre-loader-backdrop fade in&quot;&gt; obscures it
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;0753-0883&apos;, ip: &apos;10.69.68.222&apos;, os.name: &apos;Windows 8.1&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.3&apos;, java.version: &apos;1.8.0_311&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 1428, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: fb644ae5-cdb3-495d-ab87-123480404a50
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at com.sun.proxy.$Proxy9.click(Unknown Source)
+	at com.GCodes.pageObjects.Cart.cartRemove(Cart.java:131)
+	at com.GCodes.TestCases.TC_Cart_validation_004.TC_CartAddRemove(TC_Cart_validation_004.java:59)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
 </body>
 </html>

@@ -116,3 +116,11 @@
 2022-02-01 16:20:47,006 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
 2022-02-01 16:20:55,515 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
 2022-02-01 16:20:59,129 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
+2022-02-01 16:50:46,483 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
+2022-02-01 16:50:54,235 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
+2022-02-01 16:50:55,369 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
+2022-02-01 16:51:00,221 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started
+2022-02-01 18:11:54,123 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
+2022-02-01 18:12:02,936 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
+2022-02-01 18:12:03,143 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
+2022-02-01 18:12:07,073 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started

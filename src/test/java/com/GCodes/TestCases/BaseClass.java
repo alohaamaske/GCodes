@@ -29,7 +29,7 @@ public class BaseClass {
 	public String password=readconfig.getPassword();
 	public static Logger Logger;
 	Logger logger=Logger.getLogger("GCodes");
-
+    
 	private static ThreadLocal<WebDriver> driver=new ThreadLocal<>();
 
 	@Parameters("browser")
@@ -64,7 +64,7 @@ public class BaseClass {
 		return driver.get();
 	}
 
-	@AfterMethod	
+	//@AfterMethod	
 	public void teardown()
 	{
 		getDriver().quit();
@@ -78,7 +78,6 @@ public class BaseClass {
 		FileUtils.copyFile(source, target);
 		System.out.println("Screenshot Taken");
 	}
-
 	public static String randomString() {
 		String generateString= RandomStringUtils.randomAlphabetic(5);
 		return (generateString);
