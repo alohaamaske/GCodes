@@ -202,3 +202,8 @@
 2022-02-04 19:18:25,328 - GCodes -INFO - Invalid Email test started
 2022-02-04 19:18:28,811 - GCodes -INFO - Invalid Email and password test started
 2022-02-04 19:20:22,711 - GCodes -INFO - Navigated to shopping screen
+2022-02-04 19:24:44,829 - GCodes -INFO - Login Test is Pass
+2022-02-04 19:25:13,506 - GCodes -INFO - Invalid password test started
+2022-02-04 19:25:22,459 - GCodes -INFO - Invalid Email test started
+2022-02-04 19:25:25,884 - GCodes -INFO - Invalid Email and password test started
+2022-02-04 19:27:05,147 - GCodes -INFO - Navigated to shopping screen

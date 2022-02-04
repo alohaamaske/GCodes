@@ -203,3 +203,8 @@
 2022-02-04 19:18:25,328 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
 2022-02-04 19:18:28,811 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
 2022-02-04 19:20:22,711 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
+2022-02-04 19:24:44,829 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
+2022-02-04 19:25:13,506 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
+2022-02-04 19:25:22,459 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
+2022-02-04 19:25:25,884 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
+2022-02-04 19:27:05,147 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen

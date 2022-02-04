@@ -5,7 +5,7 @@
     <listener class-name="com.GCodes.utilities.Reporting"/>
   </listeners>
   <test thread-count="1" name="Test(failed)" parallel="methods">
-    <parameter name="browser" value="msedge"/>
+    <parameter name="browser" value="msedge2"/>
     <classes>
       <class name="com.GCodes.TestCases.TC_Cart_validation_004">
         <methods>
@@ -14,6 +14,29 @@
           <include name="teardown"/>
         </methods>
       </class> <!-- com.GCodes.TestCases.TC_Cart_validation_004 -->
+      <class name="com.GCodes.TestCases.TC_Wallet_003">
+        <methods>
+          <include name="TC_Invalid_Wallet_003"/>
+          <include name="Setup"/>
+          <include name="TC_Invalid_Wallet_005"/>
+          <include name="teardown"/>
+          <include name="TC_Invalid_Wallet_004"/>
+        </methods>
+      </class> <!-- com.GCodes.TestCases.TC_Wallet_003 -->
+      <class name="com.GCodes.TestCases.TC_Login_Validations_002">
+        <methods>
+          <include name="Setup"/>
+          <include name="TC_GCodes_LoginValidations_002"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.GCodes.TestCases.TC_Login_Validations_002 -->
+      <class name="com.GCodes.TestCases.TC_GCodesLogin_001">
+        <methods>
+          <include name="Setup"/>
+          <include name="teardown"/>
+          <include name="TC_GCodes_Login_001"/>
+        </methods>
+      </class> <!-- com.GCodes.TestCases.TC_GCodesLogin_001 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
