@@ -70,6 +70,7 @@ public class TC_Cart_validation_004 extends BaseClass{
 			System.out.println("Actual Item removed message is " + cart.removeItemsMessage());
 			softassert.assertEquals(cart.removeItemsMessage(), expectedItemrem);			
 			softassert.assertAll();
+			
 		}
 		else
 		{

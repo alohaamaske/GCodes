@@ -192,3 +192,13 @@
 2022-02-04 16:01:52,010 - GCodes -INFO - Invalid Email test started
 2022-02-04 16:01:55,349 - GCodes -INFO - Invalid Email and password test started
 2022-02-04 16:03:24,187 - GCodes -INFO - Navigated to shopping screen
+2022-02-04 18:22:45,614 - GCodes -INFO - Login Test is Pass
+2022-02-04 18:23:01,656 - GCodes -INFO - Invalid password test started
+2022-02-04 18:23:10,072 - GCodes -INFO - Invalid Email test started
+2022-02-04 18:23:13,741 - GCodes -INFO - Invalid Email and password test started
+2022-02-04 18:24:40,563 - GCodes -INFO - Navigated to shopping screen
+2022-02-04 19:17:59,507 - GCodes -INFO - Login Test is Pass
+2022-02-04 19:18:15,788 - GCodes -INFO - Invalid password test started
+2022-02-04 19:18:25,328 - GCodes -INFO - Invalid Email test started
+2022-02-04 19:18:28,811 - GCodes -INFO - Invalid Email and password test started
+2022-02-04 19:20:22,711 - GCodes -INFO - Navigated to shopping screen
