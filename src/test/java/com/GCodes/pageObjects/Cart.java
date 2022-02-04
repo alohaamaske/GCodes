@@ -49,6 +49,9 @@ public class Cart {
 	@FindBy(xpath = "//*[@id=\"shopping-cart\"]/div[3]/div/h3")
 	WebElement msg_itemsRemoved;
 	
+	@FindBy(xpath = "/html/body/main/div[1]/h2")
+	WebElement shoppingCartpageClick;
+	
 	public Cart(WebDriver driver)
 	{
 		this.driver=driver;
@@ -111,6 +114,10 @@ public class Cart {
 	{
 		return cart_total.getText();
 	}
+	public WebElement cart_TotalvalueVisible()
+	{
+		return cart_total;
+	}
 	
 	public void viewCartClick()
 	{
@@ -129,6 +136,10 @@ public class Cart {
 	public void cartRemove()
 	{
 		lnk_removecart.click();
+	}	
+	public WebElement removebtnClick()
+	{
+		return lnk_removecart;
 	}
 	public void removeItems()
 	{
@@ -141,5 +152,10 @@ public class Cart {
 	public WebElement ItemIsRemoved()
 	{
 		return msg_itemsRemoved;
+	}
+	
+	public void shoppingPageClick()
+	{
+		shoppingCartpageClick.click();
 	}
 }

@@ -1,10 +1,14 @@
 C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\utilities\XLUtils.java
 C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\utilities\ReadConfig.java
 C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\TestCases\BaseClass.java
-C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\pageObjects\GiveAward.java
+C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\pageObjects\Cart.java
 C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\utilities\LibraryUtils.java
-C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\pageObjects\Teams.java
-C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\TestCases\TC_Login_Validations_002.java
 C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\utilities\Reporting.java
 C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\pageObjects\Login.java
 C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\TestCases\TC_GCodesLogin_001.java
+C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\pageObjects\Wallets.java
+C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\TestCases\TC_Cart_validation_004.java
+C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\pageObjects\GiveAward.java
+C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\TestCases\TC_Wallet_003.java
+C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\pageObjects\Teams.java
+C:\Users\admin\eclipse-workspace\GCodes\src\test\java\com\GCodes\TestCases\TC_Login_Validations_002.java

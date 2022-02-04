@@ -1,11 +1,10 @@
 com\GCodes\TestCases\TC_Login_Validations_002.class
-com\GCodes\utilities\ReadConfig.class
-com\GCodes\utilities\XLUtils.class
 com\GCodes\pageObjects\Teams.class
-com\GCodes\TestCases\TC_GCodesLogin_001$TC_EvergrowLogin_001.class
-com\GCodes\utilities\LibraryUtils.class
-com\GCodes\TestCases\TC_GCodesLogin_001.class
 com\GCodes\pageObjects\GiveAward.class
 com\GCodes\pageObjects\Login.class
 com\GCodes\TestCases\BaseClass.class
+com\GCodes\utilities\ReadConfig.class
+com\GCodes\utilities\XLUtils.class
+com\GCodes\utilities\LibraryUtils.class
+com\GCodes\TestCases\TC_GCodesLogin_001.class
 com\GCodes\utilities\Reporting.class

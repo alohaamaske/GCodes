@@ -1,60 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="1" passed="0">
+<testng-results skipped="0" failed="1" ignored="0" total="6" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="57568" started-at="2022-02-02T20:30:28 IST" finished-at="2022-02-02T20:31:25 IST">
+  <suite name="Suite" duration-ms="168038" started-at="2022-02-04T16:01:05 IST" finished-at="2022-02-04T16:03:53 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="57568" started-at="2022-02-02T20:30:28 IST" finished-at="2022-02-02T20:31:25 IST">
-      <class name="com.GCodes.TestCases.TC_Cart_validation_004">
-        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Cart_validation_004@78186a70]" name="Setup" is-config="true" duration-ms="7266" started-at="2022-02-02T20:30:28 IST" finished-at="2022-02-02T20:30:35 IST">
+    <test name="Test" duration-ms="168038" started-at="2022-02-04T16:01:05 IST" finished-at="2022-02-04T16:03:53 IST">
+      <class name="com.GCodes.TestCases.TC_GCodesLogin_001">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_GCodesLogin_001@77846d2c]" name="Setup" is-config="true" duration-ms="3894" started-at="2022-02-04T16:01:05 IST" finished-at="2022-02-04T16:01:09 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[firefox]]>
+                <![CDATA[msedge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="FAIL" signature="TC_CartAddRemove()[pri:0, instance:com.GCodes.TestCases.TC_Cart_validation_004@78186a70]" name="TC_CartAddRemove" duration-ms="50029" started-at="2022-02-02T20:30:35 IST" finished-at="2022-02-02T20:31:25 IST">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
+        <test-method status="PASS" signature="TC_GCodes_Login_001()[pri:0, instance:com.GCodes.TestCases.TC_GCodesLogin_001@77846d2c]" name="TC_GCodes_Login_001" duration-ms="17665" started-at="2022-02-04T16:01:09 IST" finished-at="2022-02-04T16:01:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_GCodes_Login_001 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_GCodesLogin_001@77846d2c]" name="teardown" is-config="true" duration-ms="690" started-at="2022-02-04T16:01:27 IST" finished-at="2022-02-04T16:01:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.GCodes.TestCases.TC_GCodesLogin_001 -->
+      <class name="com.GCodes.TestCases.TC_Cart_validation_004">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Cart_validation_004@4bb4de6a]" name="Setup" is-config="true" duration-ms="2476" started-at="2022-02-04T16:02:49 IST" finished-at="2022-02-04T16:02:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msedge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="FAIL" signature="TC_CartAddRemove()[pri:0, instance:com.GCodes.TestCases.TC_Cart_validation_004@4bb4de6a]" name="TC_CartAddRemove" duration-ms="60901" started-at="2022-02-04T16:02:52 IST" finished-at="2022-02-04T16:03:52 IST">
+          <exception class="org.openqa.selenium.TimeoutException">
             <message>
-              <![CDATA[Element <a class="cart-remove" href="/storefront/cart"> is not clickable at point (975,296) because another element <div class="pre-loader-backdrop fade in"> obscures it
+              <![CDATA[Expected condition failed: waiting for visibility of [[EdgeDriver: msedge on WINDOWS (b194b597d02826ad2ca12ac38c549e38)] -> xpath: //*[@class="mt-0 mb-md text-center"]] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: '0753-0883', ip: '10.69.68.222', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_311'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 1428, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fb644ae5-cdb3-495d-ab87-123480404a50]]>
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.43, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:64578}, msedge: {msedgedriverVersion: 98.0.1108.43 (291a4aac9d385..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b194b597d02826ad2ca12ac38c549e38]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: Element <a class="cart-remove" href="/storefront/cart"> is not clickable at point (975,296) because another element <div class="pre-loader-backdrop fade in"> obscures it
+              <![CDATA[org.openqa.selenium.TimeoutException: Expected condition failed: waiting for visibility of [[EdgeDriver: msedge on WINDOWS (b194b597d02826ad2ca12ac38c549e38)] -> xpath: //*[@class="mt-0 mb-md text-center"]] (tried for 20 second(s) with 500 milliseconds interval)
 Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
 System info: host: '0753-0883', ip: '10.69.68.222', os.name: 'Windows 8.1', os.arch: 'amd64', os.version: '6.3', java.version: '1.8.0_311'
-Driver info: org.openqa.selenium.firefox.FirefoxDriver
-Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 96.0.3, javascriptEnabled: true, moz:accessibilityChecks: false, moz:buildID: 20220126154723, moz:geckodriverVersion: 0.30.0, moz:headless: false, moz:processID: 1428, moz:profile: C:\Users\admin\AppData\Loca..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, platformVersion: 6.3, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
-Session ID: fb644ae5-cdb3-495d-ab87-123480404a50
-at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
-at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:285)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:84)
-at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.lang.reflect.Method.invoke(Method.java:498)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at com.sun.proxy.$Proxy9.click(Unknown Source)
-at com.GCodes.pageObjects.Cart.cartRemove(Cart.java:131)
-at com.GCodes.TestCases.TC_Cart_validation_004.TC_CartAddRemove(TC_Cart_validation_004.java:59)
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 98.0.1108.43, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:64578}, msedge: {msedgedriverVersion: 98.0.1108.43 (291a4aac9d385..., userDataDir: C:\Users\admin\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: b194b597d02826ad2ca12ac38c549e38
+at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:95)
+at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:272)
+at com.GCodes.utilities.LibraryUtils.waiForElementToBeVisible(LibraryUtils.java:14)
+at com.GCodes.TestCases.TC_Cart_validation_004.TC_CartAddRemove(TC_Cart_validation_004.java:52)
 at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
 at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -72,11 +77,95 @@ at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:62
 at java.lang.Thread.run(Thread.java:748)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+          </exception> <!-- org.openqa.selenium.TimeoutException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CartAddRemove -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_Cart_validation_004@4bb4de6a]" name="teardown" is-config="true" duration-ms="771" started-at="2022-02-04T16:03:52 IST" finished-at="2022-02-04T16:03:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
       </class> <!-- com.GCodes.TestCases.TC_Cart_validation_004 -->
+      <class name="com.GCodes.TestCases.TC_Wallet_003">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@134593bf]" name="Setup" is-config="true" duration-ms="2518" started-at="2022-02-04T16:01:56 IST" finished-at="2022-02-04T16:01:58 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msedge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="TC_Invalid_Wallet_003()[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@134593bf]" name="TC_Invalid_Wallet_003" duration-ms="19368" started-at="2022-02-04T16:01:58 IST" finished-at="2022-02-04T16:02:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Invalid_Wallet_003 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@134593bf]" name="teardown" is-config="true" duration-ms="890" started-at="2022-02-04T16:02:18 IST" finished-at="2022-02-04T16:02:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@134593bf]" name="Setup" is-config="true" duration-ms="2395" started-at="2022-02-04T16:02:19 IST" finished-at="2022-02-04T16:02:21 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msedge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="TC_Invalid_Wallet_004()[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@134593bf]" name="TC_Invalid_Wallet_004" duration-ms="12042" started-at="2022-02-04T16:02:21 IST" finished-at="2022-02-04T16:02:33 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Invalid_Wallet_004 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@134593bf]" name="teardown" is-config="true" duration-ms="786" started-at="2022-02-04T16:02:33 IST" finished-at="2022-02-04T16:02:34 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@134593bf]" name="Setup" is-config="true" duration-ms="2601" started-at="2022-02-04T16:02:34 IST" finished-at="2022-02-04T16:02:37 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msedge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="TC_Invalid_Wallet_005()[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@134593bf]" name="TC_Invalid_Wallet_005" duration-ms="11687" started-at="2022-02-04T16:02:37 IST" finished-at="2022-02-04T16:02:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_Invalid_Wallet_005 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@134593bf]" name="teardown" is-config="true" duration-ms="872" started-at="2022-02-04T16:02:48 IST" finished-at="2022-02-04T16:02:49 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.GCodes.TestCases.TC_Wallet_003 -->
+      <class name="com.GCodes.TestCases.TC_Login_Validations_002">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Login_Validations_002@4b53f538]" name="Setup" is-config="true" duration-ms="2632" started-at="2022-02-04T16:01:28 IST" finished-at="2022-02-04T16:01:30 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[msedge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="TC_GCodes_LoginValidations_002()[pri:0, instance:com.GCodes.TestCases.TC_Login_Validations_002@4b53f538]" name="TC_GCodes_LoginValidations_002" duration-ms="24813" started-at="2022-02-04T16:01:30 IST" finished-at="2022-02-04T16:01:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_GCodes_LoginValidations_002 -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_Login_Validations_002@4b53f538]" name="teardown" is-config="true" duration-ms="806" started-at="2022-02-04T16:01:55 IST" finished-at="2022-02-04T16:01:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.GCodes.TestCases.TC_Login_Validations_002 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

@@ -1,6 +1,7 @@
 package com.GCodes.TestCases;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
@@ -48,19 +49,23 @@ public class TC_Cart_validation_004 extends BaseClass{
 			cart.enterQuantity("2");
 			cart.addToCartClick();
 			Thread.sleep(5000);
+			LibraryUtils.waiForElementToBeVisible(getDriver(), cart.cart_TotalvalueVisible(), 20);			
 			System.out.println("Original get text value is "+ cart.Cart_totalvalue().replaceAll("[^0-9]", ""));
 			Integer calcCatrvalue=Integer.valueOf(cart.Cart_totalvalue().replaceAll("[^0-9]", ""));
 			System.out.println("Calculated final value is " + calcCatrvalue);
 			cart.viewCartClick();
-			LibraryUtils.waiForElementToBeVisible(getDriver(), cart.totalvalueOnCart2(), 20);
+			LibraryUtils.waiForElementToBeVisible(getDriver(), cart.totalvalueOnCart2(), 30);
 			Integer totalcartvalue=Integer.valueOf(cart.totalvalueOnCart().replaceAll("[^0-9]", ""));
 			Integer expectedvalue=rewardcost*2;			
 			softassert.assertEquals(totalcartvalue, expectedvalue);
 			softassert.assertEquals(calcCatrvalue, expectedvalue);
+			Thread.sleep(4000);
+			cart.shoppingPageClick();
+			((JavascriptExecutor)getDriver()).executeScript("scroll(0,5000)");
 			cart.cartRemove();
-			Thread.sleep(400);
+			Thread.sleep(4000);
 			cart.removeItems();
-			LibraryUtils.waiForElementToBeVisible(getDriver(), cart.ItemIsRemoved(), 20);
+			LibraryUtils.waiForElementToBeVisible(getDriver(), cart.ItemIsRemoved(), 30);
 			String expectedItemrem="Your Shopping Cart is empty.";
 			System.out.println("Actual Item removed message is " + cart.removeItemsMessage());
 			softassert.assertEquals(cart.removeItemsMessage(), expectedItemrem);			
