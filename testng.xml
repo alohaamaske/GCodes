@@ -11,7 +11,7 @@
 			<class name="com.GCodes.TestCases.TC_GCodesLogin_001" />
 			<class name="com.GCodes.TestCases.TC_Login_Validations_002" />
 			<class name="com.GCodes.TestCases.TC_Wallet_003" />
-			<class name="com.GCodes.TestCases.TC_Cart_validation_004" />
+			<class name="com.GCodes.TestCases.TC_Cart_validation_004"/>
 		</classes>
 </test> 
 </suite> <!-- Suite -->
