@@ -38,8 +38,8 @@ public class TC_GCodesLogin_001 extends BaseClass{
 		//System.out.println(reader);
 		Login com=new Login(getDriver());
 		getDriver().get(baseURL);
-		String username= reader.getCellData("Sheet1", "Username", 2);
-		String password= reader.getCellData("Sheet1", "Password", 2);
+		String username= reader.getCellData("Login_Data", "Username", 2);
+		String password= reader.getCellData("Login_Data", "Password", 2);
 		Thread.sleep(3000);
 		com.username(username);
 		com.password(password);

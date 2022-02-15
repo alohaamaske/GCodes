@@ -52,6 +52,12 @@ public class Cart {
 	@FindBy(xpath = "/html/body/main/div[1]/h2")
 	WebElement shoppingCartpageClick;
 	
+	@FindBy(xpath = "//*[@id=\"desktop_breadcrumb\"]/li[3]")
+    WebElement bread_vitualgiftcard;
+ 	
+	@FindBy(xpath = "/html/body/header/div[1]/div[2]/div/div[1]/div[3]/div/form/div/div")
+	WebElement seletItemstype;
+	
 	public Cart(WebDriver driver)
 	{
 		this.driver=driver;
@@ -153,9 +159,18 @@ public class Cart {
 	{
 		return msg_itemsRemoved;
 	}
+	public WebElement virtulGIftCart()
+	{
+		return bread_vitualgiftcard;
+	}
 	
 	public void shoppingPageClick()
 	{
 		shoppingCartpageClick.click();
+	}
+	
+	public WebElement itemList()
+	{
+		return seletItemstype;
 	}
 }

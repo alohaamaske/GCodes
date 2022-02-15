@@ -2,7 +2,7 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite" parallel="methods" thread-count="1">
 <test thread-count="1" name="Test">
-		<parameter name="browser" value="msedge"/>
+		<parameter name="browser" value="firefox"/>
 		<listeners>
 			<listener class-name="com.GCodes.utilities.Reporting"/>
 		</listeners>
@@ -10,8 +10,6 @@
 			<!--ctrl+shift+C -->
 			<class name="com.GCodes.TestCases.TC_GCodesLogin_001" />
 			<class name="com.GCodes.TestCases.TC_Login_Validations_002" />
-			<class name="	" />
-			<class name="com.GCodes.TestCases.TC_Cart_validation_004" />
 			<class name="com.GCodes.TestCases.TC_Wallet_003" />
 			<class name="com.GCodes.TestCases.TC_Cart_validation_004"/>
 		</classes>

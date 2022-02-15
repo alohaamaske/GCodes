@@ -14,6 +14,7 @@ import com.GCodes.pageObjects.Cart;
 import com.GCodes.pageObjects.Login;
 import com.GCodes.pageObjects.Wallets;
 import com.GCodes.utilities.LibraryUtils;
+import com.GCodes.utilities.XLUtils;
 
 public class TC_Cart_validation_004 extends BaseClass{
 
@@ -21,6 +22,7 @@ public class TC_Cart_validation_004 extends BaseClass{
 	public void TC_CartAddRemove() throws InterruptedException
 	{
 		SoftAssert softassert=new SoftAssert();		
+		XLUtils reader= new XLUtils(System.getProperty("user.dir")+"/src/test/java/com/GCodes/TestData/TestData_GCodes.xlsx");
 		Login com=new Login(getDriver());
 		Cart cart=new Cart(getDriver());
 		//username and password are retrieved from config.properties file
@@ -35,16 +37,20 @@ public class TC_Cart_validation_004 extends BaseClass{
 		Thread.sleep(10000);
 		getDriver().switchTo().frame(0);
 		LibraryUtils.waiForElementToBeVisible(getDriver(), cart.menu_button_wait(), 20);	
-		cart.txt_keyword_enter("Applebee's");
+		String brandname= reader.getCellData("Cart_Data", "BrandName", 2);
+		cart.txt_keyword_enter(brandname);
+		//cart.itemList().click();
+		//Select objSelect =new Select(cart.itemList());
+		//objSelect.selectByVisibleText("In Gift Cards");				
 		cart.click_search();
-		LibraryUtils.waiForElementToBeVisible(getDriver(), cart.rewardBrand(), 20);
-		if(cart.rewardBrand().isDisplayed())
+		LibraryUtils.waiForElementToBeVisible(getDriver(), cart.virtulGIftCart(), 20);		
+	   if(cart.rewardBrand().isEnabled())
 		{
 			System.out.println("Item Found");
 			logger.info("Navigated to shopping screen");
 			Integer rewardcost=Integer.valueOf(cart.rewardcost());
-			Select objSelect =new Select(cart.selectOne());
-			objSelect.selectByVisibleText("$5.00");
+			Select objSelect2 =new Select(cart.selectOne());
+			objSelect2.selectByVisibleText("$5.00");
 			Thread.sleep(3000);
 			cart.enterQuantity("2");
 			cart.addToCartClick();
@@ -75,6 +81,8 @@ public class TC_Cart_validation_004 extends BaseClass{
 		else
 		{
 			logger.error("Unable to find the brand");
+			System.out.println("Brand Not found with locator" + cart.rewardBrand());
+			
 			getDriver().close();
 		}
 	}
