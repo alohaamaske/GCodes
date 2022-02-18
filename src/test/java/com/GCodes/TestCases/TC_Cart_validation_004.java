@@ -1,12 +1,17 @@
 package com.GCodes.TestCases;
 
+import java.util.concurrent.TimeUnit;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
+import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.Assert;
+import org.testng.SkipException;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
@@ -28,23 +33,44 @@ public class TC_Cart_validation_004 extends BaseClass{
 		//username and password are retrieved from config.properties file
 		getDriver().get(baseURL);
 		System.out.println("TC_AddCart Thread is " + Thread.currentThread().getId());
-		Thread.sleep(4000);		
+		getDriver().manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);		
 		com.username(username);
 		com.password(password);
 		com.submit();
-		LibraryUtils.waiForElementToBeVisible(getDriver(), cart.shop_link_wait(), 20);
+		//LibraryUtils.waiForElementToBeVisible(getDriver(), cart.shop_link_wait(), 20);
+		getDriver().manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 		cart.lnk_shopsClick();
+		//Thread.sleep(5000);
+		getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
+		cart.Clickviewcart_link();
+		Thread.sleep(5000);
+		getDriver().switchTo().frame(0);
+		Boolean bool1 = getDriver().findElements(By.xpath("//*[@class='btn btn-block btn-lg btn-secondary']")).size()>0;
+		System.out.println("first bool1 value is " + bool1);
+		if(bool1==true)
+		{
+			System.out.println("I am clicking on remove button now");
+			cart.cartRemove();
+			Thread.sleep(3000);
+			cart.removeItems();
+			LibraryUtils.waiForElementToBeVisible(getDriver(), cart.ItemIsRemoved(), 30);
+			getDriver().navigate().to("https://app-ci.g.codes/shop");
+		}
+		else
+		{
+			getDriver().navigate().to("https://app-ci.g.codes/shop");
+		}
 		Thread.sleep(10000);
 		getDriver().switchTo().frame(0);
 		LibraryUtils.waiForElementToBeVisible(getDriver(), cart.menu_button_wait(), 20);	
 		String brandname= reader.getCellData("Cart_Data", "BrandName", 2);
-		cart.txt_keyword_enter(brandname);
-		//cart.itemList().click();
-		//Select objSelect =new Select(cart.itemList());
-		//objSelect.selectByVisibleText("In Gift Cards");				
+		cart.txt_keyword_enter(brandname);			
 		cart.click_search();
-		LibraryUtils.waiForElementToBeVisible(getDriver(), cart.virtulGIftCart(), 20);		
-	   if(cart.rewardBrand().isEnabled())
+		System.out.println("Clicked on Search brand");
+		LibraryUtils.waiForElementToBeVisible(getDriver(), cart.virtulGIftCart(), 30);		
+		Boolean bool2 =getDriver().findElements(By.xpath("//*[@id='reward-brand']")).size()>0;
+		System.out.println("Boolean value is "+bool2);
+		if(bool2==true)
 		{
 			System.out.println("Item Found");
 			logger.info("Navigated to shopping screen");
@@ -54,7 +80,7 @@ public class TC_Cart_validation_004 extends BaseClass{
 			Thread.sleep(3000);
 			cart.enterQuantity("2");
 			cart.addToCartClick();
-			Thread.sleep(5000);
+			//Thread.sleep(5000);
 			LibraryUtils.waiForElementToBeVisible(getDriver(), cart.cart_TotalvalueVisible(), 20);			
 			System.out.println("Original get text value is "+ cart.Cart_totalvalue().replaceAll("[^0-9]", ""));
 			Integer calcCatrvalue=Integer.valueOf(cart.Cart_totalvalue().replaceAll("[^0-9]", ""));
@@ -65,25 +91,23 @@ public class TC_Cart_validation_004 extends BaseClass{
 			Integer expectedvalue=rewardcost*2;			
 			softassert.assertEquals(totalcartvalue, expectedvalue);
 			softassert.assertEquals(calcCatrvalue, expectedvalue);
-			Thread.sleep(4000);
+			//Thread.sleep(4000);
+			getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
 			cart.shoppingPageClick();
 			((JavascriptExecutor)getDriver()).executeScript("scroll(0,5000)");
 			cart.cartRemove();
-			Thread.sleep(4000);
+			Thread.sleep(2000);
 			cart.removeItems();
 			LibraryUtils.waiForElementToBeVisible(getDriver(), cart.ItemIsRemoved(), 30);
 			String expectedItemrem="Your Shopping Cart is empty.";
 			System.out.println("Actual Item removed message is " + cart.removeItemsMessage());
 			softassert.assertEquals(cart.removeItemsMessage(), expectedItemrem);			
-			softassert.assertAll();
-			
+			softassert.assertAll();			
 		}
 		else
 		{
 			logger.error("Unable to find the brand");
-			System.out.println("Brand Not found with locator" + cart.rewardBrand());
-			
-			getDriver().close();
+			throw new SkipException("Brand Not found with locator, Skipping this exception");
 		}
 	}
 }

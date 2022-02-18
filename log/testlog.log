@@ -292,3 +292,67 @@
 2022-02-15 13:54:41,982 - GCodes -INFO - Invalid Email test started
 2022-02-15 13:54:45,380 - GCodes -INFO - Invalid Email and password test started
 2022-02-15 13:56:30,350 - GCodes -INFO - Navigated to shopping screen
+2022-02-15 16:53:41,069 - GCodes -INFO - Login Test is Pass
+2022-02-15 16:53:57,835 - GCodes -INFO - Invalid password test started
+2022-02-15 16:54:06,357 - GCodes -INFO - Invalid Email test started
+2022-02-15 16:54:09,970 - GCodes -INFO - Invalid Email and password test started
+2022-02-15 16:55:30,638 - GCodes -INFO - Navigated to shopping screen
+2022-02-15 17:24:08,222 - GCodes -INFO - Navigated to shopping screen
+2022-02-15 21:59:52,238 - GCodes -INFO - Navigated to shopping screen
+2022-02-16 15:31:07,126 - GCodes -INFO - Navigated to shopping screen
+2022-02-16 16:08:08,891 - GCodes -INFO - Navigated to shopping screen
+2022-02-16 16:17:57,936 - GCodes -INFO - Navigated to shopping screen
+2022-02-16 16:37:46,320 - GCodes -INFO - Navigated to shopping screen
+2022-02-16 16:41:00,740 - GCodes -INFO - Navigated to shopping screen
+2022-02-16 16:44:10,698 - GCodes -INFO - Navigated to shopping screen
+2022-02-16 16:46:37,853 - GCodes -INFO - Navigated to shopping screen
+2022-02-16 16:48:26,716 - GCodes -INFO - Navigated to shopping screen
+2022-02-16 16:50:00,237 - GCodes -INFO - Navigated to shopping screen
+2022-02-16 16:52:26,622 - GCodes -INFO - Navigated to shopping screen
+2022-02-16 17:06:12,185 - GCodes -INFO - Navigated to shopping screen
+2022-02-16 17:08:15,777 - GCodes -INFO - Navigated to shopping screen
+2022-02-16 17:15:12,687 - GCodes -INFO - Navigated to shopping screen
+2022-02-16 17:29:47,902 - GCodes -INFO - Navigated to shopping screen
+2022-02-16 17:32:27,959 - GCodes -INFO - Navigated to shopping screen
+2022-02-16 17:33:55,431 - GCodes -INFO - Navigated to shopping screen
+2022-02-16 17:38:33,800 - GCodes -INFO - Navigated to shopping screen
+2022-02-17 16:01:05,664 - GCodes -ERROR - Unable to find the brand
+2022-02-17 16:13:12,741 - GCodes -INFO - Navigated to shopping screen
+2022-02-17 16:20:48,517 - GCodes -ERROR - Unable to find the brand
+2022-02-17 17:33:12,413 - GCodes -ERROR - Unable to find the brand
+2022-02-17 19:40:03,411 - GCodes -ERROR - Unable to find the brand
+2022-02-17 21:01:30,602 - GCodes -ERROR - Unable to find the brand
+2022-02-17 21:08:06,118 - GCodes -INFO - Navigated to shopping screen
+2022-02-17 21:09:51,326 - GCodes -INFO - Navigated to shopping screen
+2022-02-17 21:12:21,329 - GCodes -INFO - Navigated to shopping screen
+2022-02-17 21:21:51,547 - GCodes -INFO - Navigated to shopping screen
+2022-02-17 21:30:10,733 - GCodes -INFO - Navigated to shopping screen
+2022-02-17 21:37:24,676 - GCodes -INFO - Navigated to shopping screen
+2022-02-17 21:43:33,024 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 13:52:10,780 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 16:40:32,466 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 16:43:24,030 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 16:44:59,080 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 16:48:21,467 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 16:55:35,552 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 16:57:34,868 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 16:59:35,047 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 17:02:05,765 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 17:04:35,019 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 17:07:16,576 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 17:11:15,456 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 17:45:48,094 - GCodes -INFO - Login Test is Pass
+2022-02-18 17:46:07,599 - GCodes -INFO - Invalid password test started
+2022-02-18 17:46:15,937 - GCodes -INFO - Invalid Email test started
+2022-02-18 17:46:19,336 - GCodes -INFO - Invalid Email and password test started
+2022-02-18 17:48:24,503 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 18:21:00,533 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 18:31:14,139 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 18:48:07,140 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 18:50:27,436 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 18:54:13,961 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 19:23:29,439 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 19:24:44,440 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 19:32:09,296 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 19:34:53,115 - GCodes -INFO - Navigated to shopping screen
+2022-02-18 20:21:16,653 - GCodes -INFO - Navigated to shopping screen

@@ -58,6 +58,9 @@ public class Cart {
 	@FindBy(xpath = "/html/body/header/div[1]/div[2]/div/div[1]/div[3]/div/form/div/div")
 	WebElement seletItemstype;
 	
+	@FindBy(xpath ="//*[@id=\"shop-nav-bar\"]/div[2]/div[3]/div/p" )
+	WebElement lnk_viewcart;
+	
 	public Cart(WebDriver driver)
 	{
 		this.driver=driver;
@@ -151,6 +154,7 @@ public class Cart {
 	{
 		btn_removeitems.click();
 	}
+	
 	public String removeItemsMessage()
 	{
 		return msg_itemsRemoved.getText();
@@ -172,5 +176,9 @@ public class Cart {
 	public WebElement itemList()
 	{
 		return seletItemstype;
+	}
+	public void Clickviewcart_link()
+	{
+		lnk_viewcart.click();
 	}
 }

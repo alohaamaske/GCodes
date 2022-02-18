@@ -7,7 +7,6 @@
         <methods>
           <include name="Setup"/>
           <include name="TC_CartAddRemove"/>
-          <include name="teardown"/>
         </methods>
       </class> <!-- com.GCodes.TestCases.TC_Cart_validation_004 -->
     </classes>
