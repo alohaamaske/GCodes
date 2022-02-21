@@ -1,5 +1,6 @@
 package com.GCodes.TestCases;
 
+import java.time.Duration;
 import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
@@ -49,6 +50,9 @@ public class TC_Cart_validation_004 extends BaseClass{
 		System.out.println("first bool1 value is " + bool1);
 		if(bool1==true)
 		{
+			System.out.println("I am setting up wait now");
+			WebDriverWait wait= new WebDriverWait(getDriver(), 10);
+			WebElement element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"row_points_0\"]/td[3]/form/div/p/a")));
 			System.out.println("I am clicking on remove button now");
 			cart.cartRemove();
 			Thread.sleep(3000);
@@ -80,22 +84,19 @@ public class TC_Cart_validation_004 extends BaseClass{
 			Thread.sleep(3000);
 			cart.enterQuantity("2");
 			cart.addToCartClick();
-			//Thread.sleep(5000);
 			LibraryUtils.waiForElementToBeVisible(getDriver(), cart.cart_TotalvalueVisible(), 20);			
 			System.out.println("Original get text value is "+ cart.Cart_totalvalue().replaceAll("[^0-9]", ""));
 			Integer calcCatrvalue=Integer.valueOf(cart.Cart_totalvalue().replaceAll("[^0-9]", ""));
 			System.out.println("Calculated final value is " + calcCatrvalue);
 			cart.viewCartClick();
-			LibraryUtils.waiForElementToBeVisible(getDriver(), cart.totalvalueOnCart2(), 30);
+			LibraryUtils.waiForElementToBeVisible(getDriver(), cart.totalvalueOnCart2(), 30);			
 			Integer totalcartvalue=Integer.valueOf(cart.totalvalueOnCart().replaceAll("[^0-9]", ""));
 			Integer expectedvalue=rewardcost*2;			
 			softassert.assertEquals(totalcartvalue, expectedvalue);
-			softassert.assertEquals(calcCatrvalue, expectedvalue);
-			//Thread.sleep(4000);
-			getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-			cart.shoppingPageClick();
-			((JavascriptExecutor)getDriver()).executeScript("scroll(0,5000)");
-			cart.cartRemove();
+			softassert.assertEquals(calcCatrvalue, expectedvalue);			
+			WebElement ele = getDriver().findElement(By.xpath("//*[@id=\"row_points_0\"]/td[3]/form/div/p/a"));
+			JavascriptExecutor jse = (JavascriptExecutor)getDriver();
+			jse.executeScript("arguments[0].click()", ele);
 			Thread.sleep(2000);
 			cart.removeItems();
 			LibraryUtils.waiForElementToBeVisible(getDriver(), cart.ItemIsRemoved(), 30);
