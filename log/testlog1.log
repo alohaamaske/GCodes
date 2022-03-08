@@ -1,376 +1,78 @@
-2022-01-25 23:07:34,463 [main] INFO ebanking - Login Test is Pass
-2022-01-25 23:09:19,472 [main] INFO GCodes - Login Test is Pass
-2022-01-27 12:51:47,242 [main] INFO GCodes - Login Test is Pass
-2022-01-27 12:56:32,891 [main] INFO GCodes - Login Test is Pass
-2022-01-27 13:07:02,270 [main] INFO GCodes - Login Test is Pass
-2022-01-27 13:23:02,260 [main] INFO GCodes - Login Test is Pass
-2022-01-27 13:23:47,048 [main] INFO GCodes - Login Test is Pass
-2022-01-27 14:27:45,045 [main] INFO GCodes - Invalid password test started
-2022-01-27 14:27:53,515 [main] INFO GCodes - Invalid Email test started
-2022-01-27 14:27:55,158 [main] INFO GCodes - Invalid Email and password test started
-2022-01-27 14:38:49,198 [main] INFO GCodes - Invalid password test started
-2022-01-27 14:38:57,707 [main] INFO GCodes - Invalid Email test started
-2022-01-27 14:38:59,252 [main] INFO GCodes - Invalid Email and password test started
-2022-01-27 14:42:32,233 [main] INFO GCodes - Invalid password test started
-2022-01-27 14:42:40,841 [main] INFO GCodes - Invalid Email test started
-2022-01-27 14:42:42,405 [main] INFO GCodes - Invalid Email and password test started
-2022-01-27 14:50:05,241 [main] INFO GCodes - Invalid password test started
-2022-01-27 14:50:13,773 [main] INFO GCodes - Invalid Email test started
-2022-01-27 14:50:15,390 [main] INFO GCodes - Invalid Email and password test started
-2022-01-27 14:51:43,805 [main] INFO GCodes - Invalid password test started
-2022-01-27 14:51:52,092 [main] INFO GCodes - Invalid Email test started
-2022-01-27 14:51:53,685 [main] INFO GCodes - Invalid Email and password test started
-2022-01-27 14:52:27,961 [main] INFO GCodes - Invalid password test started
-2022-01-27 14:52:36,359 [main] INFO GCodes - Invalid Email test started
-2022-01-27 14:52:37,942 [main] INFO GCodes - Invalid Email and password test started
-2022-01-27 14:55:00,028 [main] INFO GCodes - Invalid password test started
-2022-01-27 14:56:35,775 [main] INFO GCodes - Invalid password test started
-2022-01-27 14:58:14,790 [main] INFO GCodes - Login Test is Pass
-2022-01-27 14:59:45,756 [main] INFO GCodes - Invalid password test started
-2022-01-27 15:01:57,724 [main] INFO GCodes - Invalid password test started
-2022-01-27 15:02:56,836 [main] INFO GCodes - Invalid password test started
-2022-01-27 15:04:12,784 [main] INFO GCodes - Invalid password test started
-2022-01-27 15:06:17,788 [main] INFO GCodes - Invalid password test started
-2022-01-27 15:11:30,703 [main] INFO GCodes - Login Test is Pass
-2022-01-27 15:12:22,972 [main] INFO GCodes - Login Test is Pass
-2022-01-27 15:15:30,917 [main] INFO GCodes - Invalid password test started
-2022-01-27 15:16:09,822 [main] INFO GCodes - Invalid password test started
-2022-01-27 15:21:29,105 [main] INFO GCodes - Invalid password test started
-2022-01-27 15:21:37,644 [main] INFO GCodes - Invalid Email test started
-2022-01-27 15:21:40,991 [main] INFO GCodes - Invalid Email and password test started
-2022-01-27 15:23:02,449 [main] INFO GCodes - Invalid password test started
-2022-01-27 15:23:10,826 [main] INFO GCodes - Invalid Email test started
-2022-01-27 15:23:14,234 [main] INFO GCodes - Invalid Email and password test started
-2022-01-27 15:26:04,002 [main] INFO GCodes - Invalid password test started
-2022-01-27 15:26:12,482 [main] INFO GCodes - Invalid Email test started
-2022-01-27 15:26:15,900 [main] INFO GCodes - Invalid Email and password test started
-2022-01-27 15:27:03,691 [main] INFO GCodes - Login Test is Pass
-2022-01-27 15:27:17,589 [main] INFO GCodes - Invalid password test started
-2022-01-27 15:27:25,949 [main] INFO GCodes - Invalid Email test started
-2022-01-27 15:27:29,377 [main] INFO GCodes - Invalid Email and password test started
-2022-01-27 15:27:51,735 [main] INFO GCodes - Login Test is Pass
-2022-01-27 15:28:05,846 [main] INFO GCodes - Invalid password test started
-2022-01-27 15:28:14,166 [main] INFO GCodes - Invalid Email test started
-2022-01-27 15:28:17,593 [main] INFO GCodes - Invalid Email and password test started
-2022-01-27 16:38:51,093 [main] INFO GCodes - Login Test is Pass
-2022-01-27 16:39:11,551 [main] INFO GCodes - Invalid password test started
-2022-01-27 16:39:19,948 [main] INFO GCodes - Invalid Email test started
-2022-01-27 16:39:23,316 [main] INFO GCodes - Invalid Email and password test started
-2022-01-27 16:46:54,539 [main] INFO GCodes - Login Test is Pass
-2022-01-27 16:47:13,317 [main] INFO GCodes - Invalid password test started
-2022-01-27 16:47:21,698 [main] INFO GCodes - Invalid Email test started
-2022-01-27 16:47:25,121 [main] INFO GCodes - Invalid Email and password test started
-2022-01-27 16:51:01,375 [main] INFO GCodes - Login Test is Pass
-2022-01-27 16:51:19,089 [main] INFO GCodes - Invalid password test started
-2022-01-27 16:51:27,429 [main] INFO GCodes - Invalid Email test started
-2022-01-27 16:51:30,854 [main] INFO GCodes - Invalid Email and password test started
-2022-01-27 16:52:25,075 [main] INFO GCodes - Login Test is Pass
-2022-01-27 16:52:43,689 [main] INFO GCodes - Invalid password test started
-2022-01-27 16:52:52,093 [main] INFO GCodes - Invalid Email test started
-2022-01-27 16:52:55,548 [main] INFO GCodes - Invalid Email and password test started
-2022-01-27 17:09:53,976 [main] INFO GCodes - Login Test is Pass
-2022-01-27 17:10:12,290 [main] INFO GCodes - Invalid password test started
-2022-01-27 17:10:20,617 [main] INFO GCodes - Invalid Email test started
-2022-01-27 17:10:24,053 [main] INFO GCodes - Invalid Email and password test started
-2022-01-27 17:29:01,319 [main] INFO GCodes - Login Test is Pass
-2022-01-27 17:29:23,230 [main] INFO GCodes - Invalid password test started
-2022-01-27 17:29:31,696 [main] INFO GCodes - Invalid Email test started
-2022-01-27 17:29:35,135 [main] INFO GCodes - Invalid Email and password test started
-2022-01-27 17:31:01,496 [main] INFO GCodes - Login Test is Pass
-2022-01-27 17:31:26,250 [main] INFO GCodes - Invalid password test started
-2022-01-27 17:31:34,858 [main] INFO GCodes - Invalid Email test started
-2022-01-27 17:31:38,376 [main] INFO GCodes - Invalid Email and password test started
-2022-01-27 17:33:07,766 [main] INFO GCodes - Login Test is Pass
-2022-01-27 17:33:26,159 [main] INFO GCodes - Invalid password test started
-2022-01-27 17:33:34,770 [main] INFO GCodes - Invalid Email test started
-2022-01-27 17:33:38,332 [main] INFO GCodes - Invalid Email and password test started
-2022-01-28 13:46:59,083 [main] INFO GCodes - Login Test is Pass
-2022-01-28 13:47:19,077 [main] INFO GCodes - Invalid password test started
-2022-01-28 13:47:27,509 [main] INFO GCodes - Invalid Email test started
-2022-01-28 13:47:30,964 [main] INFO GCodes - Invalid Email and password test started
-2022-01-31 21:53:35,081 [main] INFO GCodes - Login Test is Pass
-2022-01-31 21:53:49,801 [main] INFO GCodes - Invalid password test started
-2022-01-31 21:53:58,354 [main] INFO GCodes - Invalid Email test started
-2022-01-31 21:54:01,886 [main] INFO GCodes - Invalid Email and password test started
-2022-01-31 22:31:49,558 [main] INFO GCodes - Login Test is Pass
-2022-01-31 22:32:09,608 [main] INFO GCodes - Invalid password test started
-2022-01-31 22:32:23,900 [main] INFO GCodes - Invalid Email test started
-2022-01-31 22:32:27,299 [main] INFO GCodes - Invalid Email and password test started
-2022-02-01 16:04:46,000 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
-2022-02-01 16:04:54,987 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-01 16:04:57,764 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
-2022-02-01 16:05:02,655 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started
-2022-02-01 16:08:33,442 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
-2022-02-01 16:08:38,502 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-01 16:08:45,366 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
-2022-02-01 16:08:49,037 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started
-2022-02-01 16:15:08,773 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-01 16:15:22,355 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
-2022-02-01 16:15:30,934 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
-2022-02-01 16:15:34,349 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started
-2022-02-01 16:17:41,786 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
-2022-02-01 16:17:43,058 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-01 16:17:56,057 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
-2022-02-01 16:17:59,998 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started
-2022-02-01 16:20:11,228 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-01 16:20:47,006 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-01 16:20:55,515 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-01 16:20:59,129 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-01 16:50:46,483 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
-2022-02-01 16:50:54,235 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-01 16:50:55,369 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
-2022-02-01 16:51:00,221 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started
-2022-02-01 18:11:54,123 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
-2022-02-01 18:12:02,936 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
-2022-02-01 18:12:03,143 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-01 18:12:07,073 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started
-2022-02-02 21:57:23,030 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 14:05:44,476 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 14:11:46,071 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 14:15:34,482 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 15:21:19,739 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 15:27:05,430 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 15:28:22,865 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 16:00:42,112 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 16:12:01,555 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 16:13:29,764 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 17:35:44,865 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 17:49:11,900 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 18:11:15,727 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 18:14:02,838 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 18:16:20,733 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 18:51:06,323 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 18:57:37,807 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 18:59:04,256 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 19:15:50,561 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 19:18:03,847 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 19:35:24,900 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-03 19:35:58,034 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-03 19:36:18,356 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-03 19:36:21,792 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-03 19:38:33,178 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 19:46:00,114 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-03 19:46:28,654 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-03 19:46:44,749 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-03 19:46:48,508 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-03 19:49:01,235 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 19:51:46,778 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-03 19:52:09,235 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-03 19:52:31,012 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-03 19:52:46,143 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-03 21:17:33,381 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-03 21:17:55,641 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-03 21:18:08,399 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-03 21:18:12,008 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-03 21:20:06,837 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 21:39:33,622 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-03 21:39:52,457 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-03 21:40:03,227 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-03 21:40:07,231 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-03 21:41:47,455 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-03 22:40:55,587 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-03 22:41:19,788 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-03 22:41:33,357 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-03 22:41:36,902 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-03 22:43:41,343 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-04 15:19:30,986 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-04 15:19:51,440 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-04 15:20:03,961 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-04 15:20:07,351 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-04 15:21:49,466 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-04 15:44:17,828 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-04 15:44:38,030 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-04 15:44:50,209 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-04 15:44:53,582 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-04 15:46:34,882 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-04 15:58:27,914 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-04 15:58:45,661 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-04 15:58:53,924 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-04 15:58:57,596 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-04 16:00:18,109 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-04 16:01:21,923 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-04 16:01:43,642 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-04 16:01:52,010 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-04 16:01:55,349 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-04 16:03:24,187 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-04 18:22:45,614 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-04 18:23:01,656 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-04 18:23:10,072 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-04 18:23:13,741 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-04 18:24:40,563 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-04 19:17:59,507 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-04 19:18:15,788 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-04 19:18:25,328 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-04 19:18:28,811 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-04 19:20:22,711 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-04 19:24:44,829 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-04 19:25:13,506 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-04 19:25:22,459 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-04 19:25:25,884 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-04 19:27:05,147 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-04 21:18:12,242 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-04 21:18:28,644 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-04 21:18:37,046 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-04 21:18:40,466 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-04 21:20:08,862 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-04 22:13:10,090 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-04 22:13:30,943 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-04 22:13:43,064 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-04 22:13:46,422 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-04 22:15:26,299 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-08 22:03:11,551 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-08 22:03:32,182 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-08 22:03:44,255 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-08 22:03:47,610 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-08 22:05:41,005 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-09 14:38:15,947 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-09 14:38:30,483 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-09 14:38:38,912 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-09 14:38:42,349 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-09 14:40:07,451 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-09 15:01:05,331 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-09 15:01:24,177 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-09 15:01:32,986 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-09 15:01:36,468 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-09 15:03:53,559 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-09 15:05:08,488 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-09 15:05:32,754 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-09 15:05:49,134 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-09 15:05:52,560 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-09 15:07:46,724 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-09 16:01:37,964 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-09 16:01:59,002 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-09 16:02:12,139 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-09 16:02:15,527 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-09 16:03:59,126 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-09 16:13:19,247 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-09 16:13:40,454 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-09 16:13:54,224 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-09 16:13:57,670 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-09 16:15:39,434 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-09 16:19:18,856 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-09 16:19:33,389 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-09 16:19:41,824 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-09 16:19:45,269 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-09 16:21:03,955 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-09 20:11:50,528 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-09 20:12:03,767 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-09 20:12:12,096 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-09 20:12:15,590 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-09 21:57:43,981 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-09 21:58:09,565 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-09 21:58:17,932 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-09 21:58:21,344 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-09 21:59:43,054 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-09 22:02:18,338 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-09 22:02:32,098 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-                                                                                                                                                                                           2022-02-10 14:12:46,884 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-10 14:13:00,937 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-10 14:13:09,229 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-10 14:13:12,638 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-10 16:43:17,713 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-10 16:43:31,778 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-10 16:43:40,180 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-10 16:43:43,711 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-10 16:45:02,054 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-10 20:50:27,612 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-10 21:15:15,152 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-10 22:45:59,777 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-10 22:49:56,179 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-11 14:02:30,963 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-14 14:34:03,086 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-14 14:34:18,538 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-14 14:34:27,027 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-14 14:34:30,645 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-14 14:35:49,451 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-14 18:19:29,070 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-14 18:19:52,315 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-14 18:20:06,706 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-14 18:20:10,085 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-14 18:21:53,812 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-15 13:54:07,428 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-15 13:54:29,810 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-15 13:54:41,982 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-15 13:54:45,380 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-15 13:56:30,350 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-15 16:53:41,069 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-15 16:53:57,835 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-15 16:54:06,357 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-15 16:54:09,970 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-15 16:55:30,638 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-15 17:24:08,222 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-15 21:59:52,238 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-16 15:31:07,126 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-16 16:08:08,891 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-16 16:17:57,936 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-16 16:37:46,320 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-16 16:41:00,740 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-16 16:44:10,698 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-16 16:46:37,853 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-16 16:48:26,716 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-16 16:50:00,237 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-16 16:52:26,622 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-16 17:06:12,185 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-16 17:08:15,777 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-16 17:15:12,687 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-16 17:29:47,902 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-16 17:32:27,959 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-16 17:33:55,431 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-16 17:38:33,800 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-17 16:01:05,664 [TestNG-test=Test-1] ERROR GCodes - Unable to find the brand
-2022-02-17 16:13:12,741 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-17 16:20:48,517 [TestNG-test=Test-1] ERROR GCodes - Unable to find the brand
-2022-02-17 17:33:12,413 [TestNG-test=Test-1] ERROR GCodes - Unable to find the brand
-2022-02-17 19:40:03,411 [TestNG-test=Test-1] ERROR GCodes - Unable to find the brand
-2022-02-17 21:01:30,602 [TestNG-test=Test-1] ERROR GCodes - Unable to find the brand
-2022-02-17 21:08:06,118 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-17 21:09:51,326 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-17 21:12:21,329 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-17 21:21:51,547 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-17 21:30:10,733 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-17 21:37:24,676 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-17 21:43:33,024 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 13:52:10,780 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 16:40:32,466 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 16:43:24,030 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 16:44:59,080 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 16:48:21,467 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 16:55:35,552 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 16:57:34,868 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 16:59:35,047 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 17:02:05,765 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 17:04:35,019 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 17:07:16,576 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 17:11:15,456 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 17:45:48,094 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
-2022-02-18 17:46:07,599 [TestNG-test=Test-1] INFO GCodes - Invalid password test started
-2022-02-18 17:46:15,937 [TestNG-test=Test-1] INFO GCodes - Invalid Email test started
-2022-02-18 17:46:19,336 [TestNG-test=Test-1] INFO GCodes - Invalid Email and password test started
-2022-02-18 17:48:24,503 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 18:21:00,533 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 18:31:14,139 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 18:48:07,140 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 18:50:27,436 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 18:54:13,961 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 19:23:29,439 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 19:24:44,440 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 19:32:09,296 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 19:34:53,115 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-18 20:21:16,653 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-21 17:08:40,757 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-21 17:12:28,599 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-21 17:16:36,817 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-21 17:23:33,108 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-21 17:27:08,910 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-21 17:29:54,201 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-21 18:56:11,034 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-21 19:13:21,750 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-21 19:15:51,127 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-21 19:17:17,712 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-21 19:18:40,717 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-21 19:20:25,043 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-21 19:22:51,976 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-21 19:24:06,751 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-21 19:25:40,367 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-21 19:27:01,500 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
-2022-02-21 19:28:44,645 [TestNG-test=Test-1] INFO GCodes - Navigated to shopping screen
+2022-02-23 16:14:50,819 [TestNG-test=Test-1] INFO GCodes - Importer Link is available
+2022-03-02 18:43:42,346 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
+2022-03-02 18:43:45,464 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
+2022-03-02 18:43:53,371 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
+2022-03-02 18:44:00,851 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started
+2022-03-02 18:44:19,659 [TestNG-test=Test-1] INFO GCodes - Importer Link is available
+2022-03-02 18:45:00,421 [TestNG-test=Test-4] INFO GCodes - Navigated to shopping screen
+2022-03-02 19:28:13,911 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
+2022-03-02 19:28:20,230 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
+2022-03-02 19:28:31,937 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
+2022-03-02 19:28:35,711 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started
+2022-03-02 19:28:40,817 [TestNG-test=Test-3] INFO GCodes - Importer Link is available
+2022-03-02 19:29:12,449 [TestNG-test=Test-4] INFO GCodes - Navigated to shopping screen
+2022-03-02 19:30:47,071 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
+2022-03-02 19:30:47,535 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
+2022-03-02 19:30:57,827 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
+2022-03-02 19:31:01,292 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started
+2022-03-02 19:31:09,432 [TestNG-test=Test-1] INFO GCodes - Importer Link is available
+2022-03-02 19:31:38,503 [TestNG-test=Test-4] INFO GCodes - Navigated to shopping screen
+2022-03-02 19:44:47,539 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
+2022-03-02 19:44:56,540 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
+2022-03-02 19:44:59,341 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
+2022-03-02 19:45:03,072 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started
+2022-03-02 19:45:22,260 [TestNG-test=Test-3] INFO GCodes - Importer Link is available
+2022-03-02 19:45:54,671 [TestNG-test=Test-4] INFO GCodes - Navigated to shopping screen
+2022-03-02 19:57:50,828 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
+2022-03-02 19:58:06,646 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
+2022-03-02 19:58:11,483 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
+2022-03-02 19:58:13,096 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started
+2022-03-02 19:58:21,202 [TestNG-test=Test-4] INFO GCodes - Importer Link is available
+2022-03-02 19:58:39,082 [TestNG-test=Test-5] INFO GCodes - Navigated to shopping screen
+2022-03-04 01:01:41,439 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
+2022-03-04 01:02:00,862 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
+2022-03-04 01:02:07,156 [TestNG-test=Test-6] INFO GCodes - Importer Link is available
+2022-03-04 01:02:12,088 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
+2022-03-04 01:02:15,732 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started
+2022-03-04 01:02:48,335 [TestNG-test=Test-5] INFO GCodes - Navigated to shopping screen
+2022-03-04 17:51:29,312 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
+2022-03-04 17:51:38,197 [TestNG-test=Test-6] INFO GCodes - Importer Link is available
+2022-03-04 17:51:40,113 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
+2022-03-04 17:51:45,519 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
+2022-03-04 17:51:49,053 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started
+2022-03-04 17:52:16,526 [TestNG-test=Test-5] INFO GCodes - Navigated to shopping screen
+2022-03-08 14:08:49,760 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
+2022-03-08 14:09:12,245 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
+2022-03-08 14:09:20,833 [TestNG-test=Test-6] INFO GCodes - Importer Link is available
+2022-03-08 14:09:24,105 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
+2022-03-08 14:09:24,231 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started
+2022-03-08 14:09:52,858 [TestNG-test=Test-5] INFO GCodes - Navigated to shopping screen
+2022-03-08 14:11:32,475 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
+2022-03-08 14:11:53,851 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
+2022-03-08 14:12:06,625 [TestNG-test=Test-6] INFO GCodes - Importer Link is available
+2022-03-08 14:12:09,686 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
+2022-03-08 14:12:13,354 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started
+2022-03-08 14:12:38,579 [TestNG-test=Test-5] INFO GCodes - Navigated to shopping screen
+2022-03-08 17:16:22,034 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
+2022-03-08 17:16:28,970 [TestNG-test=Test-6] INFO GCodes - Importer Link is available
+2022-03-08 17:16:31,390 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
+2022-03-08 17:16:39,809 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
+2022-03-08 17:16:43,450 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started
+2022-03-08 17:17:04,279 [TestNG-test=Test-5] INFO GCodes - Navigated to shopping screen
+2022-03-08 17:56:35,715 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
+2022-03-08 17:56:35,803 [TestNG-test=Test-6] INFO GCodes - Importer Link is available
+2022-03-08 17:56:36,498 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
+2022-03-08 17:56:57,092 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
+2022-03-08 17:57:00,502 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started
+2022-03-08 17:57:10,262 [TestNG-test=Test-5] INFO GCodes - Navigated to shopping screen
+2022-03-08 18:16:04,671 [TestNG-test=Test-2] INFO GCodes - Invalid password test started
+2022-03-08 18:16:15,082 [TestNG-test=Test-1] INFO GCodes - Login Test is Pass
+2022-03-08 18:16:16,916 [TestNG-test=Test-6] INFO GCodes - Importer Link is available
+2022-03-08 18:16:24,784 [TestNG-test=Test-2] INFO GCodes - Invalid Email test started
+2022-03-08 18:16:28,378 [TestNG-test=Test-2] INFO GCodes - Invalid Email and password test started
+2022-03-08 18:16:53,126 [TestNG-test=Test-5] INFO GCodes - Navigated to shopping screen
+2022-03-08 22:05:24,565 [TestNG-test=Test-1] INFO GCodes - Importer Link is available
+2022-03-08 22:42:37,465 [TestNG-test=Test-1] INFO GCodes - Importer Link is available
+2022-03-08 22:52:13,223 [TestNG-test=Test-1] INFO GCodes - Importer Link is available
+2022-03-08 23:01:11,380 [TestNG-test=Test-1] INFO GCodes - Importer Link is available
+2022-03-08 23:02:41,954 [TestNG-test=Test-1] INFO GCodes - Importer Link is available

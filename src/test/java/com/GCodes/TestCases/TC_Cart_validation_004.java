@@ -50,10 +50,8 @@ public class TC_Cart_validation_004 extends BaseClass{
 		System.out.println("first bool1 value is " + bool1);
 		if(bool1==true)
 		{
-			System.out.println("I am setting up wait now");
 			WebDriverWait wait= new WebDriverWait(getDriver(), 10);
 			WebElement element=wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id=\"row_points_0\"]/td[3]/form/div/p/a")));
-			System.out.println("I am clicking on remove button now");
 			cart.cartRemove();
 			Thread.sleep(3000);
 			cart.removeItems();

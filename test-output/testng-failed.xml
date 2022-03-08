@@ -5,14 +5,14 @@
     <listener class-name="com.GCodes.utilities.Reporting"/>
   </listeners>
   <test thread-count="1" name="Test(failed)" parallel="methods">
-    <parameter name="browser" value="firefox"/>
+    <parameter name="browser" value="msedge"/>
     <classes>
-      <class name="com.GCodes.TestCases.TC_Cart_validation_004">
+      <class name="com.GCodes.TestCases.TC_Issuance_Importer_005">
         <methods>
           <include name="Setup"/>
-          <include name="TC_CartAddRemove"/>
+          <include name="TC_Import_InvalidFile"/>
         </methods>
-      </class> <!-- com.GCodes.TestCases.TC_Cart_validation_004 -->
+      </class> <!-- com.GCodes.TestCases.TC_Issuance_Importer_005 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

@@ -61,6 +61,10 @@ public class Cart {
 	@FindBy(xpath ="//*[@id=\"shop-nav-bar\"]/div[2]/div[3]/div/p" )
 	WebElement lnk_viewcart;
 	
+	@FindBy(xpath ="//*[@class='btn btn-block btn-lg btn-secondary']")
+	WebElement btn_continue;
+	
+	
 	public Cart(WebDriver driver)
 	{
 		this.driver=driver;
@@ -181,4 +185,5 @@ public class Cart {
 	{
 		lnk_viewcart.click();
 	}
+	
 }

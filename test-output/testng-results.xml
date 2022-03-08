@@ -2,27 +2,27 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="59330" started-at="2022-02-21T19:27:55 IST" finished-at="2022-02-21T19:28:55 IST">
+  <suite name="Suite" duration-ms="21138" started-at="2022-03-08T23:02:23 IST" finished-at="2022-03-08T23:02:44 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="59330" started-at="2022-02-21T19:27:55 IST" finished-at="2022-02-21T19:28:55 IST">
-      <class name="com.GCodes.TestCases.TC_Cart_validation_004">
-        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Cart_validation_004@78186a70]" name="Setup" is-config="true" duration-ms="2287" started-at="2022-02-21T19:27:56 IST" finished-at="2022-02-21T19:27:58 IST">
+    <test name="Test" duration-ms="21138" started-at="2022-03-08T23:02:23 IST" finished-at="2022-03-08T23:02:44 IST">
+      <class name="com.GCodes.TestCases.TC_Issuance_Importer_005">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Issuance_Importer_005@17211155]" name="Setup" is-config="true" duration-ms="4539" started-at="2022-03-08T23:02:23 IST" finished-at="2022-03-08T23:02:28 IST">
           <params>
             <param index="0">
               <value>
-                <![CDATA[chrome]]>
+                <![CDATA[msedge]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="TC_CartAddRemove()[pri:0, instance:com.GCodes.TestCases.TC_Cart_validation_004@78186a70]" name="TC_CartAddRemove" duration-ms="56813" started-at="2022-02-21T19:27:58 IST" finished-at="2022-02-21T19:28:55 IST">
+        <test-method status="PASS" signature="TC_Import_InvalidFile()[pri:0, instance:com.GCodes.TestCases.TC_Issuance_Importer_005@17211155]" name="TC_Import_InvalidFile" duration-ms="16287" started-at="2022-03-08T23:02:28 IST" finished-at="2022-03-08T23:02:44 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_CartAddRemove -->
-      </class> <!-- com.GCodes.TestCases.TC_Cart_validation_004 -->
+        </test-method> <!-- TC_Import_InvalidFile -->
+      </class> <!-- com.GCodes.TestCases.TC_Issuance_Importer_005 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
