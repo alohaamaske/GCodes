@@ -32,8 +32,8 @@ public class TC_Issuance_Importer_005 extends BaseClass{
 		logger.info("Importer Link is available");
 		Thread.sleep(2000);
 		captureScreen(getDriver(),"Importer Screen");
-		importer.Click_importer();
+		importer.Click_importer();		
+		Thread.sleep(2000);
 		importer.Click_browse("D:\\Automation\\bulk_issurance_rabbie_test_ci.csv");
-		
 	}
 }

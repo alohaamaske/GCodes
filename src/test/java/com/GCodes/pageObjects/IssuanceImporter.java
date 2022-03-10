@@ -16,11 +16,11 @@ public class IssuanceImporter {
 	@FindBy(xpath ="//*[@id=\"app\"]/div/main/div/div/div[2]/div/div/div/div[2]/b/a")
 	WebElement lnk_importer;
 	
-	@FindBy(linkText ="Issuance Importer")
-	WebElement lnk_IssueImporter;
+	@FindBy(xpath="//*[@id=\"app\"]/div/main/div/div/div[2]/div/div/div/div[2]/b/a")
+	WebElement btn_IssueImporter;
 	
 	@FindBy(xpath="//*[@id=\"import_file\"]")
-	WebElement btm_browse;
+	WebElement btn_browse;
 	
 	public IssuanceImporter(WebDriver driver)
 	{
@@ -35,10 +35,14 @@ public class IssuanceImporter {
 	
 	public void Click_importer()
 	{
-		lnk_IssueImporter.click();
+		btn_IssueImporter.click();
 	}
 	public void Click_browse(String path)
 	{
-		btm_browse.sendKeys(path);;
+		btn_browse.sendKeys(path);;
+	}
+	public void Click_btnBrowse()
+	{
+		btn_browse.click();
 	}
 }
