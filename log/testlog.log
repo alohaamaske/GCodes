@@ -147,3 +147,37 @@
 2022-03-11 18:03:47,160 - GCodes -INFO - File scheduled successfully
 2022-03-11 18:06:17,628 - GCodes -INFO - Importer Link is available
 2022-03-11 18:06:39,925 - GCodes -INFO - File scheduled successfully
+2022-03-11 18:09:28,944 - GCodes -INFO - Login Test is Pass
+2022-03-11 18:09:31,166 - GCodes -INFO - Invalid password test started
+2022-03-11 18:09:40,702 - GCodes -INFO - Invalid Email test started
+2022-03-11 18:09:45,486 - GCodes -INFO - Invalid Email and password test started
+2022-03-11 18:10:26,112 - GCodes -INFO - Invalid password test started
+2022-03-11 18:10:30,098 - GCodes -INFO - Login Test is Pass
+2022-03-11 18:10:36,425 - GCodes -INFO - Invalid Email test started
+2022-03-11 18:10:39,950 - GCodes -INFO - Invalid Email and password test started
+2022-03-11 18:10:54,861 - GCodes -INFO - Importer Link is available
+2022-03-11 18:11:17,253 - GCodes -INFO - File scheduled successfully
+2022-03-11 18:11:29,057 - GCodes -INFO - Navigated to shopping screen
+2022-03-11 18:34:13,470 - GCodes -INFO - Invalid password test started
+2022-03-11 18:34:44,233 - GCodes -INFO - Login Test is Pass
+2022-03-11 18:34:52,813 - GCodes -INFO - Invalid Email test started
+2022-03-11 18:34:53,608 - GCodes -INFO - Importer Link is available
+2022-03-11 18:34:58,062 - GCodes -INFO - Invalid Email and password test started
+2022-03-11 18:35:16,098 - GCodes -INFO - File scheduled successfully
+2022-03-11 18:35:28,855 - GCodes -INFO - Navigated to shopping screen
+2022-03-11 19:01:54,661 - GCodes -INFO - Invalid password test started
+2022-03-11 19:02:00,780 - GCodes -INFO - Login Test is Pass
+2022-03-11 19:02:08,074 - GCodes -INFO - Importer Link is available
+2022-03-11 19:02:08,078 - GCodes -INFO - Invalid Email test started
+2022-03-11 19:02:12,234 - GCodes -INFO - Invalid Email and password test started
+2022-03-11 19:02:30,618 - GCodes -INFO - File scheduled successfully
+2022-03-11 19:02:32,037 - GCodes -INFO - Navigated to shopping screen
+2022-03-11 20:44:41,637 - GCodes -INFO - Invalid password test started
+2022-03-11 20:45:36,884 - GCodes -INFO - Login Test is Pass
+2022-03-11 20:45:43,642 - GCodes -INFO - Invalid Email test started
+2022-03-11 20:45:45,482 - GCodes -INFO - Importer Link is available
+2022-03-11 20:45:54,443 - GCodes -INFO - Importer Link is available
+2022-03-11 20:45:55,303 - GCodes -INFO - Invalid Email and password test started
+2022-03-11 20:45:57,811 - GCodes -INFO - Importer Link is available
+2022-03-11 20:46:19,759 - GCodes -INFO - Navigated to shopping screen
+2022-03-11 20:46:20,177 - GCodes -INFO - File scheduled successfully

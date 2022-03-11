@@ -32,7 +32,7 @@ import com.aventstack.extentreports.reporter.configuration.Theme;
 public class TC_GCodesLogin_001 extends BaseClass{
 
 	@Test
-	public void TC_GCodes_Login_001() throws InterruptedException, IOException 
+	public void TC_GCodes_Login() throws InterruptedException, IOException 
 	{
 		XLUtils reader= new XLUtils(System.getProperty("user.dir")+"/src/test/java/com/GCodes/TestData/TestData_GCodes.xlsx");
 		//System.out.println(reader);

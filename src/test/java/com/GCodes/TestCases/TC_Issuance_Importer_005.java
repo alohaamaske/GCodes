@@ -16,7 +16,7 @@ import com.GCodes.utilities.XLUtils;
 
 public class TC_Issuance_Importer_005 extends BaseClass{
 
-	//@Test
+	@Test
 	public void TC_EmptyFile_validation() throws InterruptedException, IOException
 	{
 		SoftAssert softassert=new SoftAssert();		
@@ -43,7 +43,7 @@ public class TC_Issuance_Importer_005 extends BaseClass{
 		softassert.assertEquals(importer.validateText(), "Please select a file");
 		softassert.assertAll();		
 	}
-	//@Test
+	@Test
 	public void TC_Invalid_Import_InvalidFile() throws InterruptedException, IOException
 	{
 		SoftAssert softassert=new SoftAssert();		
