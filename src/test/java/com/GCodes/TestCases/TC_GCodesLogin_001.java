@@ -38,11 +38,11 @@ public class TC_GCodesLogin_001 extends BaseClass{
 		//System.out.println(reader);
 		Login com=new Login(getDriver());
 		getDriver().get(baseURL);
-		String username= reader.getCellData("Login_Data", "Username", 2);
-		String password= reader.getCellData("Login_Data", "Password", 2);
+		String user= reader.getCellData("Login_Data", "Username", 2);
+		String pswd= reader.getCellData("Login_Data", "Password", 2);
 		Thread.sleep(3000);
-		com.username(username);
-		com.password(password);
+		com.username(user);
+		com.password(pswd);
 		com.submit();									
 		System.out.println("Page title is " +getDriver().getTitle());
 
