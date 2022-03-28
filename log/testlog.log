@@ -181,3 +181,44 @@
 2022-03-11 20:45:57,811 - GCodes -INFO - Importer Link is available
 2022-03-11 20:46:19,759 - GCodes -INFO - Navigated to shopping screen
 2022-03-11 20:46:20,177 - GCodes -INFO - File scheduled successfully
+2022-03-11 21:47:51,393 - GCodes -INFO - Login Test is Pass
+2022-03-11 21:48:57,705 - GCodes -INFO - Invalid password test started
+2022-03-11 21:49:34,585 - GCodes -INFO - Importer Link is available
+2022-03-11 21:49:46,608 - GCodes -INFO - Importer Link is available
+2022-03-11 21:49:48,328 - GCodes -INFO - Login Test is Pass
+2022-03-11 21:49:48,569 - GCodes -INFO - Importer Link is available
+2022-03-11 21:49:55,270 - GCodes -INFO - Invalid Email test started
+2022-03-11 21:49:59,721 - GCodes -INFO - Invalid Email and password test started
+2022-03-11 21:50:05,691 - GCodes -INFO - File scheduled successfully
+2022-03-11 21:50:22,700 - GCodes -INFO - Navigated to shopping screen
+2022-03-14 15:01:25,584 - GCodes -INFO - Invalid password test started
+2022-03-14 15:01:56,160 - GCodes -INFO - Login Test is Pass
+2022-03-14 15:02:44,182 - GCodes -INFO - Invalid Email test started
+2022-03-14 15:02:47,180 - GCodes -INFO - Importer Link is available
+2022-03-14 15:02:48,695 - GCodes -INFO - Importer Link is available
+2022-03-14 15:02:56,503 - GCodes -INFO - Importer Link is available
+2022-03-14 15:03:00,549 - GCodes -INFO - Invalid Email and password test started
+2022-03-14 15:03:16,883 - GCodes -INFO - File scheduled successfully
+2022-03-14 15:03:44,263 - GCodes -INFO - Navigated to shopping screen
+2022-03-28 13:36:14,904 - GCodes -INFO - Invalid password test started
+2022-03-28 13:36:39,767 - GCodes -INFO - Importer Link is available
+2022-03-28 13:37:01,695 - GCodes -INFO - Importer Link is available
+2022-03-28 13:37:06,327 - GCodes -INFO - Invalid Email test started
+2022-03-28 13:37:08,319 - GCodes -INFO - Login Test is Pass
+2022-03-28 13:37:13,233 - GCodes -INFO - Invalid Email and password test started
+2022-03-28 13:37:14,553 - GCodes -INFO - Importer Link is available
+2022-03-28 13:37:36,502 - GCodes -INFO - File scheduled successfully
+2022-03-28 13:37:43,402 - GCodes -INFO - Navigated to shopping screen
+2022-03-28 13:39:20,025 - GCodes -INFO - Navigated to shopping screen
+2022-03-28 13:41:10,702 - GCodes -INFO - Navigated to shopping screen
+2022-03-28 13:50:11,262 - GCodes -INFO - Navigated to shopping screen
+2022-03-28 14:52:27,464 - GCodes -INFO - Navigated to shopping screen
+2022-03-28 14:53:56,127 - GCodes -INFO - Invalid password test started
+2022-03-28 14:53:59,837 - GCodes -INFO - Login Test is Pass
+2022-03-28 14:54:05,926 - GCodes -INFO - Invalid Email test started
+2022-03-28 14:54:09,848 - GCodes -INFO - Invalid Email and password test started
+2022-03-28 14:54:48,788 - GCodes -INFO - Importer Link is available
+2022-03-28 14:54:50,795 - GCodes -INFO - Importer Link is available
+2022-03-28 14:55:17,031 - GCodes -INFO - Navigated to shopping screen
+2022-03-28 14:55:17,674 - GCodes -INFO - Importer Link is available
+2022-03-28 14:55:40,352 - GCodes -INFO - File scheduled successfully

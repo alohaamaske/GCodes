@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="132889" started-at="2022-03-11T20:44:19 IST" finished-at="2022-03-11T20:46:32 IST">
+  <suite name="Suite" duration-ms="121244" started-at="2022-03-28T14:53:39 IST" finished-at="2022-03-28T14:55:40 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="132889" started-at="2022-03-11T20:44:19 IST" finished-at="2022-03-11T20:46:32 IST">
+    <test name="Test" duration-ms="121244" started-at="2022-03-28T14:53:39 IST" finished-at="2022-03-28T14:55:40 IST">
       <class name="com.GCodes.TestCases.TC_GCodesLogin_001">
-        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_GCodesLogin_001@6fb0d3ed]" name="Setup" is-config="true" duration-ms="9975" started-at="2022-03-11T20:44:19 IST" finished-at="2022-03-11T20:44:29 IST">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_GCodesLogin_001@fe18270]" name="Setup" is-config="true" duration-ms="3903" started-at="2022-03-28T14:53:39 IST" finished-at="2022-03-28T14:53:43 IST">
           <params>
             <param index="0">
               <value>
@@ -18,17 +18,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="TC_GCodes_Login()[pri:0, instance:com.GCodes.TestCases.TC_GCodesLogin_001@6fb0d3ed]" name="TC_GCodes_Login" duration-ms="77396" started-at="2022-03-11T20:44:29 IST" finished-at="2022-03-11T20:45:47 IST">
+        <test-method status="PASS" signature="TC_GCodes_Login()[pri:0, instance:com.GCodes.TestCases.TC_GCodesLogin_001@fe18270]" name="TC_GCodes_Login" duration-ms="22006" started-at="2022-03-28T14:53:43 IST" finished-at="2022-03-28T14:54:05 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_GCodes_Login -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_GCodesLogin_001@6fb0d3ed]" name="teardown" is-config="true" duration-ms="14417" started-at="2022-03-11T20:45:47 IST" finished-at="2022-03-11T20:46:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
       </class> <!-- com.GCodes.TestCases.TC_GCodesLogin_001 -->
       <class name="com.GCodes.TestCases.TC_Cart_validation_004">
-        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Cart_validation_004@48a242ce]" name="Setup" is-config="true" duration-ms="7029" started-at="2022-03-11T20:44:19 IST" finished-at="2022-03-11T20:44:26 IST">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Cart_validation_004@1d7acb34]" name="Setup" is-config="true" duration-ms="2818" started-at="2022-03-28T14:54:05 IST" finished-at="2022-03-28T14:54:08 IST">
           <params>
             <param index="0">
               <value>
@@ -39,17 +35,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="TC_CartAddRemove()[pri:0, instance:com.GCodes.TestCases.TC_Cart_validation_004@48a242ce]" name="TC_CartAddRemove" duration-ms="124886" started-at="2022-03-11T20:44:26 IST" finished-at="2022-03-11T20:46:31 IST">
+        <test-method status="PASS" signature="TC_CartAddRemove()[pri:0, instance:com.GCodes.TestCases.TC_Cart_validation_004@1d7acb34]" name="TC_CartAddRemove" duration-ms="81915" started-at="2022-03-28T14:54:08 IST" finished-at="2022-03-28T14:55:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_CartAddRemove -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_Cart_validation_004@48a242ce]" name="teardown" is-config="true" duration-ms="734" started-at="2022-03-11T20:46:31 IST" finished-at="2022-03-11T20:46:32 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
       </class> <!-- com.GCodes.TestCases.TC_Cart_validation_004 -->
       <class name="com.GCodes.TestCases.TC_Wallet_003">
-        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@1d7acb34]" name="Setup" is-config="true" duration-ms="8131" started-at="2022-03-11T20:44:19 IST" finished-at="2022-03-11T20:44:27 IST">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@5f71c76a]" name="Setup" is-config="true" duration-ms="5015" started-at="2022-03-28T14:53:39 IST" finished-at="2022-03-28T14:53:44 IST">
           <params>
             <param index="0">
               <value>
@@ -60,17 +52,13 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="TC_Invalid_Wallet()[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@1d7acb34]" name="TC_Invalid_Wallet" duration-ms="86711" started-at="2022-03-11T20:44:27 IST" finished-at="2022-03-11T20:45:54 IST">
+        <test-method status="PASS" signature="TC_Invalid_Wallet()[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@5f71c76a]" name="TC_Invalid_Wallet" duration-ms="25122" started-at="2022-03-28T14:53:44 IST" finished-at="2022-03-28T14:54:09 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_Invalid_Wallet -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_Wallet_003@1d7acb34]" name="teardown" is-config="true" duration-ms="4995" started-at="2022-03-11T20:45:54 IST" finished-at="2022-03-11T20:45:59 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
       </class> <!-- com.GCodes.TestCases.TC_Wallet_003 -->
       <class name="com.GCodes.TestCases.TC_Issuance_Importer_005">
-        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Issuance_Importer_005@1e4a7dd4]" name="Setup" is-config="true" duration-ms="9081" started-at="2022-03-11T20:44:19 IST" finished-at="2022-03-11T20:44:28 IST">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Issuance_Importer_005@48a242ce]" name="Setup" is-config="true" duration-ms="4365" started-at="2022-03-28T14:54:09 IST" finished-at="2022-03-28T14:54:13 IST">
           <params>
             <param index="0">
               <value>
@@ -81,7 +69,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Issuance_Importer_005@1e4a7dd4]" name="Setup" is-config="true" duration-ms="8073" started-at="2022-03-11T20:44:19 IST" finished-at="2022-03-11T20:44:27 IST">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Issuance_Importer_005@48a242ce]" name="Setup" is-config="true" duration-ms="4261" started-at="2022-03-28T14:54:10 IST" finished-at="2022-03-28T14:54:14 IST">
           <params>
             <param index="0">
               <value>
@@ -92,44 +80,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Issuance_Importer_005@1e4a7dd4]" name="Setup" is-config="true" duration-ms="9891" started-at="2022-03-11T20:44:19 IST" finished-at="2022-03-11T20:44:29 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="TC_EmptyFile_validation()[pri:0, instance:com.GCodes.TestCases.TC_Issuance_Importer_005@1e4a7dd4]" name="TC_EmptyFile_validation" duration-ms="85753" started-at="2022-03-11T20:44:27 IST" finished-at="2022-03-11T20:45:53 IST">
+        <test-method status="PASS" signature="TC_EmptyFile_validation()[pri:0, instance:com.GCodes.TestCases.TC_Issuance_Importer_005@48a242ce]" name="TC_EmptyFile_validation" duration-ms="41695" started-at="2022-03-28T14:54:13 IST" finished-at="2022-03-28T14:54:55 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_EmptyFile_validation -->
-        <test-method status="PASS" signature="Valid_ImportTest()[pri:0, instance:com.GCodes.TestCases.TC_Issuance_Importer_005@1e4a7dd4]" name="Valid_ImportTest" duration-ms="111400" started-at="2022-03-11T20:44:28 IST" finished-at="2022-03-11T20:46:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Valid_ImportTest -->
-        <test-method status="PASS" signature="TC_Invalid_Import_InvalidFile()[pri:0, instance:com.GCodes.TestCases.TC_Issuance_Importer_005@1e4a7dd4]" name="TC_Invalid_Import_InvalidFile" duration-ms="95186" started-at="2022-03-11T20:44:29 IST" finished-at="2022-03-11T20:46:04 IST">
+        <test-method status="PASS" signature="TC_Invalid_Import_InvalidFile()[pri:0, instance:com.GCodes.TestCases.TC_Issuance_Importer_005@48a242ce]" name="TC_Invalid_Import_InvalidFile" duration-ms="44116" started-at="2022-03-28T14:54:14 IST" finished-at="2022-03-28T14:54:58 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_Invalid_Import_InvalidFile -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_Issuance_Importer_005@1e4a7dd4]" name="teardown" is-config="true" duration-ms="5323" started-at="2022-03-11T20:45:53 IST" finished-at="2022-03-11T20:45:58 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_Issuance_Importer_005@1e4a7dd4]" name="teardown" is-config="true" duration-ms="830" started-at="2022-03-11T20:46:04 IST" finished-at="2022-03-11T20:46:05 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_Issuance_Importer_005@1e4a7dd4]" name="teardown" is-config="true" duration-ms="714" started-at="2022-03-11T20:46:20 IST" finished-at="2022-03-11T20:46:20 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.GCodes.TestCases.TC_Issuance_Importer_005 -->
-      <class name="com.GCodes.TestCases.TC_Login_Validations_002">
-        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Login_Validations_002@5f71c76a]" name="Setup" is-config="true" duration-ms="7957" started-at="2022-03-11T20:44:19 IST" finished-at="2022-03-11T20:44:27 IST">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Issuance_Importer_005@48a242ce]" name="Setup" is-config="true" duration-ms="3108" started-at="2022-03-28T14:54:55 IST" finished-at="2022-03-28T14:54:58 IST">
           <params>
             <param index="0">
               <value>
@@ -140,14 +99,27 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="TC_GCodes_LoginValidations()[pri:0, instance:com.GCodes.TestCases.TC_Login_Validations_002@5f71c76a]" name="TC_GCodes_LoginValidations" duration-ms="88449" started-at="2022-03-11T20:44:27 IST" finished-at="2022-03-11T20:45:56 IST">
+        <test-method status="PASS" signature="Valid_ImportTest()[pri:0, instance:com.GCodes.TestCases.TC_Issuance_Importer_005@48a242ce]" name="Valid_ImportTest" duration-ms="41646" started-at="2022-03-28T14:54:58 IST" finished-at="2022-03-28T14:55:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Valid_ImportTest -->
+      </class> <!-- com.GCodes.TestCases.TC_Issuance_Importer_005 -->
+      <class name="com.GCodes.TestCases.TC_Login_Validations_002">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Login_Validations_002@27fe3806]" name="Setup" is-config="true" duration-ms="4217" started-at="2022-03-28T14:53:39 IST" finished-at="2022-03-28T14:53:43 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Setup -->
+        <test-method status="PASS" signature="TC_GCodes_LoginValidations()[pri:0, instance:com.GCodes.TestCases.TC_Login_Validations_002@27fe3806]" name="TC_GCodes_LoginValidations" duration-ms="26904" started-at="2022-03-28T14:53:43 IST" finished-at="2022-03-28T14:54:10 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC_GCodes_LoginValidations -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_Login_Validations_002@5f71c76a]" name="teardown" is-config="true" duration-ms="5181" started-at="2022-03-11T20:45:56 IST" finished-at="2022-03-11T20:46:01 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
       </class> <!-- com.GCodes.TestCases.TC_Login_Validations_002 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->

@@ -75,12 +75,13 @@ public class TC_Cart_validation_004 extends BaseClass{
 		if(bool2==true)
 		{
 			System.out.println("Item Found");
-			logger.info("Navigated to shopping screen");
-			Integer rewardcost=Integer.valueOf(cart.rewardcost());
+			logger.info("Navigated to shopping screen");		
 			Select objSelect2 =new Select(cart.selectOne());
-			objSelect2.selectByVisibleText("$5.00");
+			objSelect2.selectByVisibleText("$200.00");
 			Thread.sleep(3000);
 			cart.enterQuantity("2");
+			Thread.sleep(2000);
+			Integer rewardcost=Integer.valueOf(cart.rewardcost());
 			cart.addToCartClick();
 			LibraryUtils.waiForElementToBeVisible(getDriver(), cart.cart_TotalvalueVisible(), 20);			
 			System.out.println("Original get text value is "+ cart.Cart_totalvalue().replaceAll("[^0-9]", ""));
