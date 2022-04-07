@@ -13,6 +13,12 @@
           <include name="TC_CartAddRemove"/>
         </methods>
       </class> <!-- com.GCodes.TestCases.TC_Cart_validation_004 -->
+      <class name="com.GCodes.TestCases.TC_Wallet_003">
+        <methods>
+          <include name="TC_Invalid_Wallet"/>
+          <include name="Setup"/>
+        </methods>
+      </class> <!-- com.GCodes.TestCases.TC_Wallet_003 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

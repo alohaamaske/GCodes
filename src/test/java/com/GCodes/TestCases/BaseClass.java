@@ -64,7 +64,7 @@ public class BaseClass {
 		return driver.get();
 	}
 
-	//@AfterMethod	
+	@AfterMethod	
 	public void teardown()
 	{
 		getDriver().quit();
