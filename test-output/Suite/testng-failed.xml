@@ -11,14 +11,16 @@
         <methods>
           <include name="Setup"/>
           <include name="TC_CartAddRemove"/>
+          <include name="teardown"/>
         </methods>
       </class> <!-- com.GCodes.TestCases.TC_Cart_validation_004 -->
-      <class name="com.GCodes.TestCases.TC_Wallet_003">
+      <class name="com.GCodes.TestCases.TC_Issuance_Importer_005">
         <methods>
-          <include name="TC_Invalid_Wallet"/>
           <include name="Setup"/>
+          <include name="TC_Invalid_Import_InvalidFile"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- com.GCodes.TestCases.TC_Wallet_003 -->
+      </class> <!-- com.GCodes.TestCases.TC_Issuance_Importer_005 -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

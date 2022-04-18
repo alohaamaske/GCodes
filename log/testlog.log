@@ -308,3 +308,42 @@
 2022-04-07 21:39:57,427 - GCodes -INFO - Invalid Email and password test started
 2022-04-07 21:40:19,856 - GCodes -INFO - Navigated to shopping screen
 2022-04-07 21:40:20,027 - GCodes -INFO - Send Code performed successfully
+2022-04-11 13:04:18,285 - GCodes -INFO - Invalid password test started
+2022-04-11 13:05:00,168 - GCodes -INFO - Login Test is Pass
+2022-04-11 13:05:26,316 - GCodes -INFO - Importer Link is available
+2022-04-11 13:05:33,368 - GCodes -INFO - Importer Link is available
+2022-04-11 13:05:34,812 - GCodes -INFO - Importer Link is available
+2022-04-11 13:05:37,978 - GCodes -INFO - Invalid Email test started
+2022-04-11 13:05:41,571 - GCodes -INFO - Invalid Email and password test started
+2022-04-11 13:06:01,055 - GCodes -INFO - File scheduled successfully
+2022-04-11 13:06:07,902 - GCodes -INFO - Send Code performed successfully
+2022-04-11 13:06:11,055 - GCodes -INFO - Navigated to shopping screen
+2022-04-11 13:07:03,666 - GCodes -INFO - Importer Link is available
+2022-04-11 13:07:03,928 - GCodes -INFO - Invalid password test started
+2022-04-11 13:07:25,964 - GCodes -INFO - Importer Link is available
+2022-04-11 13:07:31,654 - GCodes -INFO - Login Test is Pass
+2022-04-11 13:07:32,514 - GCodes -INFO - Importer Link is available
+2022-04-11 13:07:35,597 - GCodes -INFO - Invalid Email test started
+2022-04-11 13:07:39,875 - GCodes -INFO - Invalid Email and password test started
+2022-04-11 13:07:52,255 - GCodes -INFO - File scheduled successfully
+2022-04-11 13:07:58,421 - GCodes -INFO - Navigated to shopping screen
+2022-04-11 13:08:11,508 - GCodes -INFO - Send Code performed successfully
+2022-04-11 23:58:38,360 - GCodes -INFO - Invalid password test started
+2022-04-11 23:59:50,180 - GCodes -INFO - Importer Link is available
+2022-04-11 23:59:51,111 - GCodes -INFO - Login Test is Pass
+2022-04-11 23:59:58,067 - GCodes -INFO - Invalid Email test started
+2022-04-12 00:00:03,212 - GCodes -INFO - Importer Link is available
+2022-04-12 00:00:06,400 - GCodes -INFO - Importer Link is available
+2022-04-12 00:00:09,792 - GCodes -INFO - Invalid Email and password test started
+2022-04-12 00:00:27,901 - GCodes -INFO - Navigated to shopping screen
+2022-04-12 00:00:29,486 - GCodes -INFO - File scheduled successfully
+2022-04-12 00:00:33,897 - GCodes -INFO - Send Code performed successfully
+2022-04-18 13:40:14,607 - GCodes -INFO - Importer Link is available
+2022-04-18 13:40:15,314 - GCodes -INFO - Invalid password test started
+2022-04-18 13:40:26,781 - GCodes -INFO - Importer Link is available
+2022-04-18 13:40:28,750 - GCodes -INFO - Importer Link is available
+2022-04-18 13:40:29,477 - GCodes -INFO - Login Test is Pass
+2022-04-18 13:40:31,525 - GCodes -INFO - Invalid Email test started
+2022-04-18 13:40:38,621 - GCodes -INFO - Invalid Email and password test started
+2022-04-18 13:40:47,657 - GCodes -INFO - File scheduled successfully
+2022-04-18 13:41:00,475 - GCodes -INFO - Send Code performed successfully

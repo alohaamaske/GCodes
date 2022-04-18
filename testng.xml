@@ -4,7 +4,7 @@
 	<listeners>
 		<listener class-name="com.GCodes.utilities.Reporting" />
 	</listeners>
-	<test thread-count="7" name="Test">
+	<test thread-count="1" name="Test">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.GCodes.TestCases.TC_GCodesLogin_001" />
