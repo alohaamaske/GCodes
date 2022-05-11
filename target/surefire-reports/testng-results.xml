@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="49871" started-at="2022-01-27T17:09:35 IST" finished-at="2022-01-27T17:10:25 IST">
+  <suite name="Suite" duration-ms="19934" started-at="2022-04-18T22:14:47 IST" finished-at="2022-04-18T22:15:07 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="49871" started-at="2022-01-27T17:09:35 IST" finished-at="2022-01-27T17:10:25 IST">
-      <class name="com.GCodes.TestCases.TC_GCodesLogin_001$TC_EvergrowLogin_001">
-        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_GCodesLogin_001$TC_EvergrowLogin_001@6a1aab78]" name="Setup" is-config="true" duration-ms="14208" started-at="2022-01-27T17:09:35 IST" finished-at="2022-01-27T17:09:49 IST">
+    <test name="Test" duration-ms="19934" started-at="2022-04-18T22:14:47 IST" finished-at="2022-04-18T22:15:07 IST">
+      <class name="com.GCodes.TestCases.TC_GCodesLogin_001">
+        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_GCodesLogin_001@77ec78b9]" name="Setup" is-config="true" duration-ms="2554" started-at="2022-04-18T22:14:47 IST" finished-at="2022-04-18T22:14:50 IST">
           <params>
             <param index="0">
               <value>
@@ -18,36 +18,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="TC_EvergrowLogin_001()[pri:0, instance:com.GCodes.TestCases.TC_GCodesLogin_001$TC_EvergrowLogin_001@6a1aab78]" name="TC_EvergrowLogin_001" duration-ms="10053" started-at="2022-01-27T17:09:49 IST" finished-at="2022-01-27T17:09:59 IST">
+        <test-method status="PASS" signature="TC_GCodes_Login()[pri:0, instance:com.GCodes.TestCases.TC_GCodesLogin_001@77ec78b9]" name="TC_GCodes_Login" duration-ms="16430" started-at="2022-04-18T22:14:50 IST" finished-at="2022-04-18T22:15:06 IST">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC_EvergrowLogin_001 -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_GCodesLogin_001$TC_EvergrowLogin_001@6a1aab78]" name="teardown" is-config="true" duration-ms="889" started-at="2022-01-27T17:09:59 IST" finished-at="2022-01-27T17:10:00 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- teardown -->
-      </class> <!-- com.GCodes.TestCases.TC_GCodesLogin_001$TC_EvergrowLogin_001 -->
-      <class name="com.GCodes.TestCases.TC_Login_Validations_002">
-        <test-method status="PASS" signature="Setup(java.lang.String)[pri:0, instance:com.GCodes.TestCases.TC_Login_Validations_002@37374a5e]" name="Setup" is-config="true" duration-ms="11633" started-at="2022-01-27T17:10:00 IST" finished-at="2022-01-27T17:10:12 IST">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Setup -->
-        <test-method status="PASS" signature="login_Validations()[pri:0, instance:com.GCodes.TestCases.TC_Login_Validations_002@37374a5e]" name="login_Validations" duration-ms="12094" started-at="2022-01-27T17:10:12 IST" finished-at="2022-01-27T17:10:24 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- login_Validations -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_Login_Validations_002@37374a5e]" name="teardown" is-config="true" duration-ms="762" started-at="2022-01-27T17:10:24 IST" finished-at="2022-01-27T17:10:25 IST">
+        </test-method> <!-- TC_GCodes_Login -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:com.GCodes.TestCases.TC_GCodesLogin_001@77ec78b9]" name="teardown" is-config="true" duration-ms="769" started-at="2022-04-18T22:15:06 IST" finished-at="2022-04-18T22:15:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-      </class> <!-- com.GCodes.TestCases.TC_Login_Validations_002 -->
+      </class> <!-- com.GCodes.TestCases.TC_GCodesLogin_001 -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

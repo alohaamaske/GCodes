@@ -1,20 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Suite" parallel="methods" thread-count="1">
+<suite name="Suite" parallel="tests"  thread-count="3">
 	<listeners>
 		<listener class-name="com.GCodes.utilities.Reporting" />
 	</listeners>
-	<test thread-count="1" name="Test">
+	<test thread-count="2" name="chromeTest">
 		<parameter name="browser" value="chrome" />
 		<classes>
 			<class name="com.GCodes.TestCases.TC_GCodesLogin_001" />
-<!-- 			<class name="com.GCodes.TestCases.TC_Login_Validations_002" /> -->
+			<class name="com.GCodes.TestCases.TC_Login_Validations_002" />
+<!-- 			<class name="com.GCodes.TestCases.TC_Wallet_003" /> -->
+<!-- 			<class name="com.GCodes.TestCases.TC_Cart_validation_004" /> -->
+<!-- 			<class name="com.GCodes.TestCases.TC_Issuance_Importer_005" /> -->
+<!-- 			<class name="com.GCodes.TestCases.TC_SendCode_006" /> -->
+			 
+		
+		</classes>
+	</test>
+	<test thread-count="2" name="MsEdgeTest">
+		<parameter name="browser" value="msedge" />
+		<classes>
+			<class name="com.GCodes.TestCases.TC_GCodesLogin_001" />
+			<class name="com.GCodes.TestCases.TC_Login_Validations_002" />
 <!-- 			<class name="com.GCodes.TestCases.TC_Wallet_003" /> -->
 <!-- 			<class name="com.GCodes.TestCases.TC_Cart_validation_004" /> -->
 <!-- 			<class name="com.GCodes.TestCases.TC_Issuance_Importer_005" /> -->
 <!-- 			<class name="com.GCodes.TestCases.TC_SendCode_006" /> -->
 			
-			
+		
 		</classes>
 	</test>
 </suite> <!-- Suite -->

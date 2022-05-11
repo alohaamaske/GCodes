@@ -357,3 +357,14 @@
 2022-04-18 18:13:34,956 - GCodes -INFO - Importer Link is available
 2022-04-18 18:13:59,278 - GCodes -INFO - File scheduled successfully
 2022-04-18 18:14:22,528 - GCodes -INFO - Send Code performed successfully
+2022-04-18 22:15:01,808 - GCodes -INFO - Login Test is Pass
+2022-05-11 18:31:19,797 - GCodes -INFO - Login Test is Pass
+2022-05-11 18:31:23,011 - GCodes -INFO - Login Test is Pass
+2022-05-11 19:12:42,984 - GCodes -INFO - Login Test is Pass
+2022-05-11 19:12:51,241 - GCodes -INFO - Login Test is Pass
+2022-05-11 19:13:10,772 - GCodes -INFO - Invalid password test started
+2022-05-11 19:13:25,111 - GCodes -INFO - Invalid password test started
+2022-05-11 19:13:26,794 - GCodes -INFO - Invalid Email test started
+2022-05-11 19:13:33,318 - GCodes -INFO - Invalid Email and password test started
+2022-05-11 19:13:50,638 - GCodes -INFO - Invalid Email test started
+2022-05-11 19:14:01,048 - GCodes -INFO - Invalid Email and password test started
